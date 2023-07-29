@@ -56,7 +56,7 @@ export const websiteConfig: WebSiteConfig = {
       show: true,
     },
     email: {
-      url: 'isaherv92@gmail.com',
+      url: 'spirale.interieure@gmail.com',
       title: "M'envoyer un e-mail",
       label: 'Email',
       show: true,
