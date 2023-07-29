@@ -33,7 +33,7 @@ export const QuiSuisJe: FC = () => {
               <PageTitle>Qui suis-je ?</PageTitle>
             </div>
             <div className="" style={{ minHeight: '3rem' }}></div>
-            <SemiTransparentTile className="card text-start text-light fs-2 font-monserrat px-4 py-4">
+            <SemiTransparentTile className="card text-start text-light fs-4 font-monserrat px-4 py-4">
               <p className="">
                 Aujourd'hui je me définirais comme une facilitatrice, une accompagnatrice de l'Être,
                 une révélatrice de potentiels.
