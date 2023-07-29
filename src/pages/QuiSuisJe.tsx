@@ -34,6 +34,8 @@ export const QuiSuisJe: FC = () => {
             </div>
             <div className="" style={{ minHeight: '3rem' }}></div>
             <SemiTransparentTile className="card text-start text-light fs-4 font-monserrat px-4 py-4">
+              <p className="">Bonjour !</p>
+              <p>Je suis Isabelle Hervouet.</p>
               <p className="">
                 Aujourd'hui je me définirais comme une facilitatrice, une accompagnatrice de l'Être,
                 une révélatrice de potentiels.
