@@ -59,7 +59,7 @@ export const HambugerMenu: FC = () => {
       >
         <div className="container h-100 overflow-y-scroll">
           <div className="offcanvas-header">
-            <h4 className="offcanvas-title text-dark fw-bolder" id="offcanvasDarkNavbarLabel">
+            <h4 className="offcanvas-title text-light fw-bolder" id="offcanvasDarkNavbarLabel">
               {websiteConfig.websiteShortTitle}
             </h4>
             <button
@@ -103,7 +103,7 @@ export const HambugerMenu: FC = () => {
                 </div>
               </li>
               <li className="nav-item w-100 text-start mt-3">
-                <div className=" w-100 border-bottom border-secondary fs-5 text-dark fw-bolder">
+                <div className=" w-100 border-bottom border-secondary fs-5 text-light fw-bolder">
                   Mes offres
                 </div>
                 <div className="d-flex p-1 flex-row flex-wrap align-items-center">
@@ -152,7 +152,7 @@ export const HambugerMenu: FC = () => {
                 </div>
               </li> */}
               <li className="nav-item w-100 text-start mt-3">
-                <div className="w-100 border-bottom border-secondary fs-6 text-dark fw-bolder d-flex p-1 flex-row flex-wrap align-items-center">
+                <div className="w-100 border-bottom border-secondary fs-6 text-light fw-bolder d-flex p-1 flex-row flex-wrap align-items-center">
                   <span>Confiance numérique</span>
                 </div>
                 <div className="d-flex p-1 flex-row flex-wrap align-items-center">

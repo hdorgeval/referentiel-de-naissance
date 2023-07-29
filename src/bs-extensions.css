@@ -289,3 +289,8 @@
   color: #fff !important;
   background-color: RGBA(109, 7, 26, var(--bs-bg-opacity, 1)) !important;
 }
+
+.text-bg-bordeau-50 {
+  color: #fff !important;
+  background-color: RGBA(109, 7, 26, var(--bs-bg-opacity, 0.5)) !important;
+}
