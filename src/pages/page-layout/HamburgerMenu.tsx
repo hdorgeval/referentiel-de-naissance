@@ -88,7 +88,7 @@ export const HambugerMenu: FC = () => {
               </li>
               <li className="nav-item w-100 text-start mt-3">
                 <div className=" w-100 border-bottom border-secondary fs-5 text-secondary">
-                  Tarot de Marseille
+                  Mes offres
                 </div>
                 <div className="d-flex p-1 flex-row flex-wrap align-items-center">
                   <Link to="/#">
