@@ -21,6 +21,7 @@ export const LandingPage: FC = () => {
           <div className="mt-4">
             <PageTitle className="font-mali">Spirale Intérieure</PageTitle>
             <PageSubTitle className="font-dancing-script">Isabelle Hervouet</PageSubTitle>
+            <img src="/images/Logo VF_prénom_seul_sans fond.png" />
           </div>
         </div>
       </PublicPageLayoutWithFixedBackgroundImage>
