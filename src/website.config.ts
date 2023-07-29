@@ -39,8 +39,8 @@ export const websiteConfig: WebSiteConfig = {
   hamburgerMenuPosition: 'left',
   socialLinksMenuPosition: 'bottom',
   websiteSubTitle: 'Lorem ipsum dolor sit amet',
-  websiteTitle: "Spiral'Intérieure",
-  websiteShortTitle: "Spiral'Intérieure",
+  websiteTitle: 'Spirale Intérieure',
+  websiteShortTitle: 'Spirale Intérieure',
   websiteUrl: 'https://mon-site-web.com',
   legalNotice: {
     lastUpdate: '2023/06/21',
