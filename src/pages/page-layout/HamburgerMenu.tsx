@@ -1,11 +1,5 @@
 import { FC, useMemo } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import {
-  AccountFullNameBadge,
-  CreateAccountBadge,
-  LoginAccountBadge,
-  LogoutAccountBadge,
-} from '../../components/auth/MyAccount';
 import { websiteConfig } from '../../website.config';
 
 export const HambugerMenu: FC = () => {
@@ -85,11 +79,11 @@ export const HambugerMenu: FC = () => {
                       Qui suis-je ?
                     </span>
                   </Link>
-                  <Link to="/temoignages" className="text-decoration-none text-light">
+                  {/* <Link to="/temoignages" className="text-decoration-none text-light">
                     <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1">
                       Témoignages
                     </span>
-                  </Link>
+                  </Link> */}
                 </div>
               </li>
               <li className="nav-item w-100 text-start mt-3">
@@ -99,13 +93,13 @@ export const HambugerMenu: FC = () => {
                 <div className="d-flex p-1 flex-row flex-wrap align-items-center">
                   <Link to="/#">
                     <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1">
-                      Séance individuelle
+                      Référentiel de naissance
                     </span>
                   </Link>
                 </div>
               </li>
 
-              <li className="nav-item w-100 text-start mt-3">
+              {/* <li className="nav-item w-100 text-start mt-3">
                 <div className="w-100 border-bottom border-secondary fs-6 text-secondary d-flex p-1 flex-row flex-wrap align-items-center">
                   <span>Mon espace client</span>
                 </div>
@@ -115,8 +109,8 @@ export const HambugerMenu: FC = () => {
                   <LoginAccountBadge />
                   <LogoutAccountBadge />
                 </div>
-              </li>
-              <li className="nav-item w-100 text-start mt-3">
+              </li> */}
+              {/* <li className="nav-item w-100 text-start mt-3">
                 <div className="w-100 border-bottom border-secondary fs-6 text-secondary d-flex p-1 flex-row flex-wrap align-items-center">
                   <span>Crédits photos</span>
                 </div>
@@ -125,7 +119,7 @@ export const HambugerMenu: FC = () => {
                     John Doe
                   </span>
                 </div>
-              </li>
+              </li> */}
               <li className="nav-item w-100 text-start mt-3">
                 <div className="w-100 border-bottom border-secondary fs-6 text-secondary d-flex p-1 flex-row flex-wrap align-items-center">
                   <span>Confiance numérique</span>
