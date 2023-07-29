@@ -38,6 +38,10 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+.font-edu-script {
+  font-family: 'Edu SA Beginner', cursive;
+}
+
 .fs-7 {
   font-size: 0.8rem !important;
 }
