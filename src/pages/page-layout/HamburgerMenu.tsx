@@ -96,7 +96,21 @@ export const HambugerMenu: FC = () => {
                       Chemin de vie par le tarot de Marseille
                     </span>
                   </Link>
-                  <span className="ms-2 fs-7">(Basé sur le référentiel de naissance)</span>
+                  <Link to="/#">
+                    <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1">
+                      Trame
+                    </span>
+                  </Link>
+                  <Link to="/#">
+                    <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1">
+                      Sophrologie
+                    </span>
+                  </Link>
+                  <Link to="/#">
+                    <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1">
+                      Constellations familiales de groupe
+                    </span>
+                  </Link>
                 </div>
               </li>
 
