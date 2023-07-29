@@ -2,6 +2,7 @@ import { FC, useMemo } from 'react';
 import { usePublicPage } from '../../contexts/userContext';
 import { useGuidedTour } from '../../hooks/useGuidedTour';
 import { useMetaDescription } from '../../hooks/useMetaDescription';
+import { useOffCanvasBackdropRemover } from '../../hooks/useOffCanvasBackdropRemover';
 import { useTitle } from '../../hooks/useTitle';
 import { Footer } from './Footer';
 import { HambugerMenu } from './HamburgerMenu';
@@ -26,6 +27,7 @@ export const PublicPageLayoutWithFixedBackgroundImage: FC<PageLyoutOwnProps> = (
   children,
   htmlTitle,
 }) => {
+  useOffCanvasBackdropRemover();
   usePublicPage();
   useGuidedTour();
   useTitle(htmlTitle);
