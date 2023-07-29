@@ -40,7 +40,7 @@ export const HambugerMenu: FC = () => {
         </div>
       </nav>
       <div
-        className={`offcanvas position-absolute text-bg-dark-50 ${
+        className={`offcanvas position-absolute text-bg-red ${
           websiteConfig.hamburgerMenuPosition === 'left' ? 'offcanvas-start' : 'offcanvas-end'
         }`}
         tabIndex={-1}
@@ -81,7 +81,7 @@ export const HambugerMenu: FC = () => {
                     title="Accueil"
                     aria-label="Accueil"
                   >
-                    <span className="badge rounded-pill text-bg-dark-50 fs-7 border border-secondary m-1">
+                    <span className="badge rounded-pill text-bg-red fs-7 border border-secondary m-1">
                       Accueil
                     </span>
                   </Link>
@@ -91,12 +91,12 @@ export const HambugerMenu: FC = () => {
                     title="Qui suis-je ?"
                     aria-label="Qui suis-je ?"
                   >
-                    <span className="badge rounded-pill text-bg-dark-50 fs-7 border border-secondary m-1">
+                    <span className="badge rounded-pill text-bg-red fs-7 border border-secondary m-1">
                       Qui suis-je ?
                     </span>
                   </Link>
                   {/* <Link to="/temoignages" className="text-decoration-none text-light">
-                    <span className="badge rounded-pill text-bg-dark-50 fs-7 border border-secondary m-1">
+                    <span className="badge rounded-pill text-bg-red fs-7 border border-secondary m-1">
                       Témoignages
                     </span>
                   </Link> */}
@@ -108,22 +108,22 @@ export const HambugerMenu: FC = () => {
                 </div>
                 <div className="d-flex p-1 flex-row flex-wrap align-items-center">
                   <Link to="/#">
-                    <span className="badge rounded-pill text-bg-dark-50 fs-7 border border-secondary m-1">
+                    <span className="badge rounded-pill text-bg-red fs-7 border border-secondary m-1">
                       Chemin de vie par le tarot de Marseille
                     </span>
                   </Link>
                   <Link to="/#">
-                    <span className="badge rounded-pill text-bg-dark-50 fs-7 border border-secondary m-1">
+                    <span className="badge rounded-pill text-bg-red fs-7 border border-secondary m-1">
                       Trame
                     </span>
                   </Link>
                   <Link to="/#">
-                    <span className="badge rounded-pill text-bg-dark-50 fs-7 border border-secondary m-1">
+                    <span className="badge rounded-pill text-bg-red fs-7 border border-secondary m-1">
                       Sophrologie
                     </span>
                   </Link>
                   <Link to="/#">
-                    <span className="badge rounded-pill text-bg-dark-50 fs-7 border border-secondary m-1">
+                    <span className="badge rounded-pill text-bg-red fs-7 border border-secondary m-1">
                       Constellations familiales de groupe
                     </span>
                   </Link>
@@ -146,7 +146,7 @@ export const HambugerMenu: FC = () => {
                   <span>Crédits photos</span>
                 </div>
                 <div className="d-flex p-1 flex-row flex-wrap align-items-center">
-                  <span className="badge rounded-pill text-bg-dark-50 fs-7 border border-secondary m-1">
+                  <span className="badge rounded-pill text-bg-red fs-7 border border-secondary m-1">
                     John Doe
                   </span>
                 </div>
@@ -157,7 +157,7 @@ export const HambugerMenu: FC = () => {
                 </div>
                 <div className="d-flex p-1 flex-row flex-wrap align-items-center">
                   <Link to="/mentions-legales">
-                    <span className="badge rounded-pill text-bg-dark-50 fs-7 border border-secondary m-1">
+                    <span className="badge rounded-pill text-bg-red fs-7 border border-secondary m-1">
                       Mentions légales
                     </span>
                   </Link>

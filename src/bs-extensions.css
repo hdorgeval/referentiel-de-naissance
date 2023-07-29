@@ -284,3 +284,8 @@
   color: #fff !important;
   background-color: RGBA(33, 37, 41, var(--bs-bg-opacity, 0.5)) !important;
 }
+
+.text-bg-red {
+  color: #fff !important;
+  background-color: RGBA(168, 25, 0, var(--bs-bg-opacity, 1)) !important;
+}
