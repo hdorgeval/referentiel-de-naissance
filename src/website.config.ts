@@ -68,7 +68,7 @@ export const websiteConfig: WebSiteConfig = {
       show: false,
     },
     instagram: {
-      url: 'https://www.instagram.com/isaher92/?hl=fr',
+      url: 'https://www.instagram.com/isabelle.hervouet92/?hl=fr',
       title: 'Me contacter sur Instagram',
       label: 'Instagram',
       show: true,
