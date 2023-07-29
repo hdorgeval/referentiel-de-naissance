@@ -19,9 +19,8 @@ export const LandingPage: FC = () => {
         >
           <div className="flex-grow-half"></div>
           <div className="mt-4">
-            <PageTitle className="font-mali">Chemin de vie</PageTitle>
-            <PageTitle className="font-mali">Thème de naissance</PageTitle>
-            <PageTitle className="font-mali">Avec le tarot de marseille</PageTitle>
+            <PageTitle className="font-mali">Spiral'intérieure</PageTitle>
+
             <OpenExternalLinkButton
               className="btn btn-outline-light fw-bolder w-80 mt-4 text-nowrap"
               link={websiteConfig.links.rdv.url}
