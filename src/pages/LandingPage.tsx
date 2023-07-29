@@ -1,7 +1,6 @@
 import { FC } from 'react';
 import { OpenExternalLinkButton } from '../components/OpenExternalLinkButton';
 import { websiteConfig } from '../website.config';
-import { PageSubTitle } from './page-layout/PageSubTitle';
 import { PageTitle } from './page-layout/PageTitle';
 import { PublicPageLayoutWithFixedBackgroundImage } from './page-layout/PublicPageLayoutWithFixedBackgroundImage';
 export const LandingPage: FC = () => {
@@ -20,9 +19,9 @@ export const LandingPage: FC = () => {
         >
           <div className="flex-grow-half"></div>
           <div className="mt-4">
-            <PageTitle className="font-marcellus">{websiteConfig.websiteTitle}</PageTitle>
-            <PageSubTitle className="fs-7">{websiteConfig.websiteSubTitle}</PageSubTitle>
-
+            <PageTitle className="font-mali">Chemin de vie</PageTitle>
+            <PageTitle className="font-mali">Thème de naissance</PageTitle>
+            <PageTitle className="font-mali">Avec le tarot de marseille</PageTitle>
             <OpenExternalLinkButton
               className="btn btn-outline-light fw-bolder w-80 mt-4 text-nowrap"
               link={websiteConfig.links.rdv.url}
