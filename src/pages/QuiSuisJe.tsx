@@ -18,7 +18,7 @@ export const QuiSuisJe: FC = () => {
       <div
         className="bg-image"
         style={{
-          backgroundImage: `url("/images/landing-page-background.jpg")`,
+          backgroundImage: `url("/images/qui-suis-je-background.png")`,
           height: '100vh',
         }}
       >
