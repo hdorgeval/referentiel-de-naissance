@@ -35,12 +35,12 @@ export interface Links {
 }
 
 export const websiteConfig: WebSiteConfig = {
-  copyrightOwner: 'John Doe',
+  copyrightOwner: 'Isabelle Hervouet',
   hamburgerMenuPosition: 'left',
   socialLinksMenuPosition: 'bottom',
   websiteSubTitle: 'Lorem ipsum dolor sit amet',
-  websiteTitle: 'Mon référentiel de naissance',
-  websiteShortTitle: 'Mon référentiel de naissance',
+  websiteTitle: "Spiral'Intérieure",
+  websiteShortTitle: "Spiral'Intérieure",
   websiteUrl: 'https://mon-site-web.com',
   legalNotice: {
     lastUpdate: '2023/06/21',
