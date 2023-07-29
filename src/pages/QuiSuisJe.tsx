@@ -33,7 +33,7 @@ export const QuiSuisJe: FC = () => {
               <PageTitle>Qui suis-je ?</PageTitle>
             </div>
             <div className="" style={{ minHeight: '3rem' }}></div>
-            <SemiTransparentTile className="card text-start text-light fs-4 font-edu-script px-4 py-4">
+            <SemiTransparentTile className="card text-start text-light fs-4 font-kite-one px-4 py-4">
               <p className="">Bonjour !</p>
               <p>Je suis Isabelle Hervouet.</p>
               <p className="">
