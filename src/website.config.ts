@@ -86,7 +86,7 @@ export const websiteConfig: WebSiteConfig = {
       show: false,
     },
     whatsApp: {
-      url: 'https://wa.me/0601908352',
+      url: 'https://wa.me/33601908352',
       title: 'Me contacter sur WhatsApp',
       label: 'WhatsApp',
       show: true,
