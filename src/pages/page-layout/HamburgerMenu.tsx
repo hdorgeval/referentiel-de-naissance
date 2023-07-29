@@ -88,19 +88,15 @@ export const HambugerMenu: FC = () => {
               </li>
               <li className="nav-item w-100 text-start mt-3">
                 <div className=" w-100 border-bottom border-secondary fs-5 text-secondary">
-                  Particuliers
+                  Tarot de Marseille
                 </div>
                 <div className="d-flex p-1 flex-row flex-wrap align-items-center">
                   <Link to="/#">
                     <span className="badge rounded-pill text-bg-dark fs-7 border border-secondary m-1">
                       Chemin de vie par le tarot de Marseille
-                      <span className="align-text-top">*</span>
                     </span>
                   </Link>
-                </div>
-                <div className="pt-2 border-bottom border-secondary w-100">
-                  <span className="align-text-top">*</span>
-                  <span className="ms-2">Basé sur le référentiel de naissance</span>
+                  <span className="ms-2 fs-7">(Basé sur le référentiel de naissance)</span>
                 </div>
               </li>
 
