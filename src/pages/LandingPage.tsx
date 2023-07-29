@@ -1,6 +1,6 @@
 import { FC } from 'react';
-import { OpenExternalLinkButton } from '../components/OpenExternalLinkButton';
 import { websiteConfig } from '../website.config';
+import { PageSubTitle } from './page-layout/PageSubTitle';
 import { PageTitle } from './page-layout/PageTitle';
 import { PublicPageLayoutWithFixedBackgroundImage } from './page-layout/PublicPageLayoutWithFixedBackgroundImage';
 export const LandingPage: FC = () => {
@@ -20,17 +20,7 @@ export const LandingPage: FC = () => {
           <div className="flex-grow-half"></div>
           <div className="mt-4">
             <PageTitle className="font-mali">Spirale Intérieure</PageTitle>
-
-            <OpenExternalLinkButton
-              className="btn btn-outline-light fw-bolder w-80 mt-4 text-nowrap"
-              link={websiteConfig.links.rdv.url}
-              title={websiteConfig.links.rdv.title}
-              analyticsEvent="rdv-ou-contact"
-            >
-              <div className="d-flex flex-column align-items-center">
-                <span className="">{websiteConfig.links.rdv.label}</span>
-              </div>
-            </OpenExternalLinkButton>
+            <PageSubTitle className="font-dancing-script">Isabelle Hervouet</PageSubTitle>
           </div>
         </div>
       </PublicPageLayoutWithFixedBackgroundImage>
