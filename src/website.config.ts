@@ -50,13 +50,13 @@ export const websiteConfig: WebSiteConfig = {
   displaySocialLinksViaButton: true,
   links: {
     phone: {
-      url: '0614763770',
+      url: '0601908352',
       title: "M'appeler au téléphone",
       label: 'Phone',
       show: true,
     },
     email: {
-      url: 'john.doe@gmail.com',
+      url: 'isaherv92@gmail.com',
       title: "M'envoyer un e-mail",
       label: 'Email',
       show: true,
@@ -65,16 +65,16 @@ export const websiteConfig: WebSiteConfig = {
       url: 'https://www.youtube.com/channel/0123456789',
       title: 'Voir mes vidéos sur Youtube',
       label: 'Youtube',
-      show: true,
+      show: false,
     },
     instagram: {
-      url: 'https://www.instagram.com/john-doe/?hl=fr',
+      url: 'https://www.instagram.com/isar92/?hl=fr',
       title: 'Me contacter sur Instagram',
       label: 'Instagram',
       show: true,
     },
     facebook: {
-      url: 'https://www.facebook.com/john-doe',
+      url: 'https://www.facebook.com/isabellehervouet',
       title: 'Me contacter sur Facebook',
       label: 'Facebook',
       show: true,
@@ -86,7 +86,7 @@ export const websiteConfig: WebSiteConfig = {
       show: false,
     },
     whatsApp: {
-      url: 'https://wa.me/0123456789',
+      url: 'https://wa.me/0601908352',
       title: 'Me contacter sur WhatsApp',
       label: 'WhatsApp',
       show: true,
