@@ -39,8 +39,8 @@ export const websiteConfig: WebSiteConfig = {
   hamburgerMenuPosition: 'left',
   socialLinksMenuPosition: 'bottom',
   websiteSubTitle: 'Lorem ipsum dolor sit amet',
-  websiteTitle: "Au coeur de l'écoute",
-  websiteShortTitle: "Au coeur de l'écoute",
+  websiteTitle: 'Mon référentiel de naissance',
+  websiteShortTitle: 'Mon référentiel de naissance',
   websiteUrl: 'https://mon-site-web.com',
   legalNotice: {
     lastUpdate: '2023/06/21',
