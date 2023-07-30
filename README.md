@@ -4,8 +4,10 @@
 
 ## Web App Manifest
 
-[Web App Manifest Generator](https://tomitm.github.io/appmanifest/)
-[Generate Icons](https://manifest-gen.netlify.app/)
+[Web App Manifest Generator (1)](https://tomitm.github.io/appmanifest/)
+[Web App Manifest Generator (2)](https://www.simicart.com/manifest-generator.html/)
+[Generate Icons (1)](https://manifest-gen.netlify.app/)
+[Generate Icons (2)](https://www.pwabuilder.com/imageGenerator)
 [Favicon Generator](https://realfavicongenerator.net/)
 
 ## Google Analytics
