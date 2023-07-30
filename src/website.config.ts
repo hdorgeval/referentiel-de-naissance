@@ -41,7 +41,7 @@ export const websiteConfig: WebSiteConfig = {
   websiteSubTitle: 'Lorem ipsum dolor sit amet',
   websiteTitle: 'Spirale Intérieure',
   websiteShortTitle: 'Spirale Intérieure',
-  websiteUrl: 'https://mon-site-web.com',
+  websiteUrl: 'https://spirale-interieure.com',
   legalNotice: {
     lastUpdate: '2023/06/21',
   },
