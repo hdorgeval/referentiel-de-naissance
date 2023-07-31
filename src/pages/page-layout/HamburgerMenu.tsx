@@ -144,16 +144,16 @@ export const HambugerMenu: FC = () => {
                   <LogoutAccountBadge />
                 </div>
               </li> */}
-              {/* <li className="nav-item w-100 text-start mt-3">
-                <div className="w-100 border-bottom border-secondary fs-6 text-secondary d-flex p-1 flex-row flex-wrap align-items-center">
-                  <span>Crédits photos</span>
+              <li className="nav-item w-100 text-start mt-3">
+                <div className="w-100 border-bottom border-secondary fs-6 text-light fw-bolder d-flex p-1 flex-row flex-wrap align-items-center">
+                  <span>Crédits</span>
                 </div>
                 <div className="d-flex p-1 flex-row flex-wrap align-items-center">
                   <span className="badge rounded-pill text-bg-bordeaux fs-7 border border-secondary m-1">
-                    John Doe
+                    web design: Henri d'Orgeval
                   </span>
                 </div>
-              </li> */}
+              </li>
               <li className="nav-item w-100 text-start mt-3">
                 <div className="w-100 border-bottom border-secondary fs-6 text-light fw-bolder d-flex p-1 flex-row flex-wrap align-items-center">
                   <span>Confiance numérique</span>
