@@ -1,7 +1,9 @@
 import { FC } from 'react';
 import { Description } from '../components/Description';
 import { FiveStarRating } from '../components/FiveStarRating';
+import { FourStarRating } from '../components/FourStarRating';
 import { OneLetterPill } from '../components/OneLetterPill';
+import { ThreeStarRating } from '../components/ThreeStarRating';
 import { websiteConfig } from '../website.config';
 import { PageTitle } from './page-layout/PageTitle';
 import { PublicPageLayoutWithFixedBackgroundImage } from './page-layout/PublicPageLayoutWithFixedBackgroundImage';
@@ -24,14 +26,13 @@ export const Temoignages: FC = () => {
               <div className="card-body d-flex flex-row align-items-start">
                 <OneLetterPill>C</OneLetterPill>
                 <div className="d-flex px-0 ms-3 flex-column justify-content-between ms">
-                  <div className="card-title fs-5">carole JACOB</div>
+                  <div className="card-title fs-5">Carole J.</div>
                   <div>
                     <FiveStarRating />
                   </div>
                   <Description>
-                    Marie-Anne m'a accompagné dans une constellation familiale en individuel. Je me
-                    suis sentie écoutée et en sécurité tout le long. Merci pour ta douceur et ton
-                    professionnalisme 🙏.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed vestibulum
+                    ipsum, aliquam fermentum leo.
                   </Description>
                 </div>
               </div>
@@ -46,12 +47,8 @@ export const Temoignages: FC = () => {
                     <FiveStarRating />
                   </div>
                   <Description>
-                    Laissez-vous guider par Marie Anne comme je l'ai fait lors d'une séance de
-                    constellation. Par sa vraie présence, son énergie joyeuse et son écoute à
-                    l'unisson, elle sait poser un cadre sécurisant et professionnel et en même temps
-                    simple, chaleureux et intime, pour permettre, en confiance et en conscience, de
-                    cheminer en nous-mêmes et en nos vies, passées, présentes et futures. C'est un
-                    cadeau précieux.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed vestibulum
+                    ipsum, aliquam fermentum leo.
                   </Description>
                 </div>
               </div>
@@ -61,18 +58,13 @@ export const Temoignages: FC = () => {
               <div className="card-body d-flex flex-row align-items-start">
                 <OneLetterPill>D</OneLetterPill>
                 <div className="d-flex px-0 ms-3 flex-column justify-content-between ms">
-                  <div className="card-title fs-5">Delphine Lorelli</div>
+                  <div className="card-title fs-5">Delphine L.</div>
                   <div>
                     <FiveStarRating />
                   </div>
                   <Description>
-                    Marie-Anne la lumineuse, qui vous permet tout en douceur de prendre conscience
-                    de la vôtre, de lumière. Quels que soient ses outils, des petits pions en bois,
-                    une guitare, sa voix ou ses mains, Marie-Anne est une révélatrice. Je suis venue
-                    en toute confiance démêler des émotions complexes lors d'une séance de
-                    constellations familiales... J'ai été accueillie avec bienveillance et respect,
-                    et je suis repartie avec des ressources que j'ignorais posséder. Vraiment une
-                    belle rencontre :)
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed vestibulum
+                    ipsum, aliquam fermentum leo.
                   </Description>
                 </div>
               </div>
@@ -82,15 +74,13 @@ export const Temoignages: FC = () => {
               <div className="card-body d-flex flex-row align-items-start">
                 <OneLetterPill>C</OneLetterPill>
                 <div className="d-flex px-0 ms-3 flex-column justify-content-between ms">
-                  <div className="card-title fs-5">Caroline Queriaud</div>
+                  <div className="card-title fs-5">Caroline Q.</div>
                   <div>
                     <FiveStarRating />
                   </div>
                   <Description>
-                    Marie-Anne est une femme d'une incroyable écoute, empathie et douceur. Elle
-                    s'adapte à vous, vos besoins, qu'elle accueille avec beaucoup d'amour pour un
-                    massage d'une profonde qualité. Ses capacités de don de soi et sa bienveillance
-                    en font une praticienne hors pair, n'hésitez pas !
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed vestibulum
+                    ipsum, aliquam fermentum leo.
                   </Description>
                 </div>
               </div>
@@ -100,15 +90,29 @@ export const Temoignages: FC = () => {
               <div className="card-body d-flex flex-row align-items-start">
                 <OneLetterPill>J</OneLetterPill>
                 <div className="d-flex px-0 ms-3 flex-column justify-content-between ms">
-                  <div className="card-title fs-5">Jean Viltart</div>
+                  <div className="card-title fs-5">John D.</div>
+                  <div>
+                    <ThreeStarRating />
+                  </div>
+                  <Description>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed vestibulum
+                    ipsum, aliquam fermentum leo.
+                  </Description>
+                </div>
+              </div>
+            </div>
+
+            <div className="card bg-color-dark-semi-transparent text-start text-light font-monserrat mt-3">
+              <div className="card-body d-flex flex-row align-items-start">
+                <OneLetterPill>I</OneLetterPill>
+                <div className="d-flex px-0 ms-3 flex-column justify-content-between ms">
+                  <div className="card-title fs-5">Isabelle J.</div>
                   <div>
                     <FiveStarRating />
                   </div>
                   <Description>
-                    Très belle découverte du massage tantrique, tout en douceur, respect et accueil.
-                    Une expérience à vivre, qui m'a apaisé et éclairé. Je suis heureux d'avoir
-                    accordé ma confiance à Marie-Anne, qui est très professionnelle et exerce tout
-                    en conscience, ses soins gagnent à être connus et expérimentés!
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed vestibulum
+                    ipsum, aliquam fermentum leo.
                   </Description>
                 </div>
               </div>
@@ -118,14 +122,13 @@ export const Temoignages: FC = () => {
               <div className="card-body d-flex flex-row align-items-start">
                 <OneLetterPill>D</OneLetterPill>
                 <div className="d-flex px-0 ms-3 flex-column justify-content-between ms">
-                  <div className="card-title fs-5">Declan Kehoe</div>
+                  <div className="card-title fs-5">Declan K.</div>
                   <div>
-                    <FiveStarRating />
+                    <FourStarRating />
                   </div>
                   <Description>
-                    Un grand et beau moment de détente et de reconnexion avec le corps. Une
-                    expérience extraordinaire à vivre et à revivre. Un temps de présence bien à soi
-                    qui fait un bien fou. À refaire
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed vestibulum
+                    ipsum, aliquam fermentum leo.
                   </Description>
                 </div>
               </div>
@@ -135,13 +138,13 @@ export const Temoignages: FC = () => {
               <div className="card-body d-flex flex-row align-items-start">
                 <OneLetterPill>S</OneLetterPill>
                 <div className="d-flex px-0 ms-3 flex-column justify-content-between ms">
-                  <div className="card-title fs-5">Steve LEBON</div>
+                  <div className="card-title fs-5">Steve L.</div>
                   <div>
                     <FiveStarRating />
                   </div>
                   <Description>
-                    Extraordinaire pour qui sais et veux recevoir ! Merci pour cette expérience
-                    extraordinaire hors des limites de l'esprit lâché prise total. Merci Marie Anne.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed vestibulum
+                    ipsum, aliquam fermentum leo.
                   </Description>
                 </div>
               </div>
