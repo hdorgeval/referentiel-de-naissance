@@ -1,8 +1,5 @@
 import { FC } from 'react';
-import { usePublicPage } from '../contexts/userContext';
 import { useDate } from '../hooks/useCalendar';
-import { useMetaDescription } from '../hooks/useMetaDescription';
-import { useTitle } from '../hooks/useTitle';
 import { websiteConfig } from '../website.config';
 import { PageSubTitle } from './page-layout/PageSubTitle';
 import { PageTitle } from './page-layout/PageTitle';
@@ -13,9 +10,6 @@ import { PublicPageLayoutWithFixedBackgroundGradient } from './page-layout/Publi
 //  https://www.netlify.com/trust-center/
 
 export const MentionsLegales: FC = () => {
-  usePublicPage();
-  useTitle(`Mentions légales | ${websiteConfig.websiteTitle}`);
-  useMetaDescription(`Mentions légales | ${websiteConfig.websiteTitle}`);
   const dateInfos = useDate(websiteConfig.legalNotice.lastUpdate);
   return (
     <>

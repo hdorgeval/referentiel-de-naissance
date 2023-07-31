@@ -1,16 +1,10 @@
 import { FC } from 'react';
-import { usePublicPage } from '../contexts/userContext';
-import { useMetaDescription } from '../hooks/useMetaDescription';
-import { useTitle } from '../hooks/useTitle';
 import { websiteConfig } from '../website.config';
 import { PageTitle } from './page-layout/PageTitle';
 import { PublicPageLayoutWithFixedBackgroundImage } from './page-layout/PublicPageLayoutWithFixedBackgroundImage';
 import { SemiTransparentTile } from './page-layout/SemiTransparentTile';
 
 export const QuiSuisJe: FC = () => {
-  usePublicPage();
-  useTitle(`Qui-suis je? | ${websiteConfig.websiteTitle}`);
-  useMetaDescription(`Qui-suis je? | ${websiteConfig.websiteTitle}`);
   return (
     <>
       <PublicPageLayoutWithFixedBackgroundImage
