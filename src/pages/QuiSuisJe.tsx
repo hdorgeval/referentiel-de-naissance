@@ -3,7 +3,6 @@ import { usePublicPage } from '../contexts/userContext';
 import { useMetaDescription } from '../hooks/useMetaDescription';
 import { useTitle } from '../hooks/useTitle';
 import { websiteConfig } from '../website.config';
-import { Footer } from './page-layout/Footer';
 import { PageTitle } from './page-layout/PageTitle';
 import { PublicPageLayoutWithFixedBackgroundImage } from './page-layout/PublicPageLayoutWithFixedBackgroundImage';
 import { SemiTransparentTile } from './page-layout/SemiTransparentTile';
@@ -70,10 +69,6 @@ export const QuiSuisJe: FC = () => {
 
             <p className="mb-0 pb-0"></p>
           </SemiTransparentTile>
-          <div className="fs-4 fw-bolder font-monserrat mt-4 mx-4 text-start text-light"></div>
-
-          <div className="p-2 flex-grow-1 bd-highlight"></div>
-          <Footer />
         </div>
       </PublicPageLayoutWithFixedBackgroundImage>
     </>
