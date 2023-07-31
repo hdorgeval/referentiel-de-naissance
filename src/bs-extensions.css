@@ -289,12 +289,12 @@
   background-color: RGBA(33, 37, 41, var(--bs-bg-opacity, 0.5)) !important;
 }
 
-.text-bg-bordeau {
+.text-bg-bordeaux {
   color: #fff !important;
   background-color: RGBA(109, 7, 26, var(--bs-bg-opacity, 1)) !important;
 }
 
-.text-bg-bordeau-50 {
+.text-bg-bordeaux-50 {
   color: #fff !important;
   background-color: RGBA(109, 7, 26, var(--bs-bg-opacity, 0.5)) !important;
 }
