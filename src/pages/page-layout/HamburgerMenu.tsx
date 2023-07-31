@@ -65,10 +65,13 @@ export const HambugerMenu: FC = () => {
             <button
               id="hamburger-close-button"
               type="button"
-              className="btn-close btn-close-white fw-bolder fs-2"
+              className="btn border border-0"
               data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
+              aria-label="Fermer le menu"
+              title="Fermer le menu"
+            >
+              <span className="btn-close-thick-3 text-white"></span>
+            </button>
           </div>
           <div className="offcanvas-body fs-6 pt-0">
             <ul className="navbar-nav justify-content-start align-items-start flex-grow-1 pe-3">
@@ -124,7 +127,7 @@ export const HambugerMenu: FC = () => {
                   </Link>
                   <Link to="/#">
                     <span className="badge rounded-pill text-bg-bordeau fs-7 border border-secondary m-1">
-                      Constellations familiales de groupe
+                      Constellations familiales
                     </span>
                   </Link>
                 </div>
