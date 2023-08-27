@@ -26,7 +26,7 @@ export const CheminDeVieParLeTarotDeMarseille: FC = () => {
           <div className="" style={{ minHeight: '7vh' }}></div>
           <SemiTransparentTile
             background="linear-gradient(rgb(14, 62, 106,0.4), rgba(14, 62, 106,0.3))"
-            className="card text-start text-light fs-2 font-monserrat px-4 py-4"
+            className="card text-start text-light fs-4 font-monserrat px-4 py-4"
           >
             <ReadMoreReadLess
               height={'21vh'}
