@@ -3,7 +3,6 @@ import { CallablePhoneNumberButton } from '../components/CallablePhoneNumberButt
 import { Description } from '../components/Description';
 import { OpenExternalLinkButton } from '../components/OpenExternalLinkButton';
 import { PhoneNumber } from '../components/PhoneNumber';
-import { Quote } from '../components/Quote';
 import { ReadMoreReadLess } from '../components/ReadMoreReadLess';
 import { websiteConfig } from '../website.config';
 import { PageTitle } from './page-layout/PageTitle';
@@ -158,17 +157,6 @@ export const CheminDeVieParLeTarotDeMarseille: FC = () => {
                 </div>
               </TransparentListGroupItem> */}
             </ul>
-          </SemiTransparentTile>
-          <SemiTransparentTile
-            background="linear-gradient(rgb(40, 26, 174, 0.6), rgba(79, 79, 93, 0.3)"
-            className="card text-start text-light font-playfair mt-4"
-          >
-            <div className="card-body">
-              <Quote
-                sentence="Votre corps est un temple, prenez en grand soin et souvenez vous que vous êtes la divinité qui y vit."
-                author="OSHO"
-              />
-            </div>
           </SemiTransparentTile>
         </div>
       </PublicPageLayoutWithFixedBackgroundImage>
