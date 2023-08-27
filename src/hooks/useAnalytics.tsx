@@ -4,28 +4,19 @@ export type MyAnalyticsEvent =
   | 'appel-telephone'
   | 'envoie-mail'
   | 'has-completed-guided-tour'
-  | 'open-amazon-on-my-book'
   | 'open-external-link'
   | 'open-google-maps'
-  | 'open-meditattion-france'
   | 'open-my-facebook'
   | 'open-my-instagram'
   | 'open-my-linkedin'
   | 'open-my-whatsapp'
   | 'open-my-youtube'
-  | 'open-podcast-sexualité-sacrée'
   | 'open-waze'
-  | 'pre-inscription-femme-sauvage'
-  | 'pre-inscription-soiree-tantra'
-  | 'pre-inscription-sons-mantras-tantra'
-  | 'pre-inscription-tantra-et-constellations'
-  | 'pre-inscription-tantra-femme'
   | 'rdv-constellation'
   | 'rdv-entretien-prealable'
-  | 'rdv-initiation-massage-meditatif'
-  | 'rdv-massage-meditatif'
   | 'rdv-ou-contact'
-  | 'rdv-rituel-tantrique';
+  | 'tel-tarot'
+  | 'rdv-tarot';
 
 export type CommandType = 'js' | 'config' | 'event';
 declare global {

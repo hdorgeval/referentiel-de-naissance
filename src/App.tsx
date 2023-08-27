@@ -1,5 +1,6 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { UserContext, useUserContextInfo } from './contexts/userContext';
+import { CheminDeVieParLeTarotDeMarseille } from './pages/CheminDeVieParLeTarotDeMarseille';
 import { ErrorPage } from './pages/ErrorPage';
 import { LandingPage } from './pages/LandingPage';
 import { MentionsLegales } from './pages/MentionsLegales';
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: '/temoignages',
     element: <Temoignages />,
+  },
+  {
+    path: '/chemin-de-vie-par-le-tarot-de-marseille',
+    element: <CheminDeVieParLeTarotDeMarseille />,
   },
 ]);
 
