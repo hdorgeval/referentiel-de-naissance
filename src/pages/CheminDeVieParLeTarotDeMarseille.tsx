@@ -1,6 +1,5 @@
 import { FC } from 'react';
 import { CallablePhoneNumberButton } from '../components/CallablePhoneNumberButton';
-import { Description } from '../components/Description';
 import { PhoneNumber } from '../components/PhoneNumber';
 import { ReadMoreReadLess } from '../components/ReadMoreReadLess';
 import { websiteConfig } from '../website.config';
@@ -32,19 +31,29 @@ export const CheminDeVieParLeTarotDeMarseille: FC = () => {
               readMoreText={'Lire plus'}
               readLessText={'Lire moins'}
             >
-              <Description>
+              <p>
                 J'accompagne avec le Tarot de Marseille les personnes en quête de sens, de réponses,
                 de changement sur leur chemin de vie et toutes celles et ceux qui cherchent à
-                comprendre le pourquoi de leurs blocages, de situations qui se répètent. J'utilise
-                le Référentiel de naissance, outil créé par George Colleuil. Cette approche
-                psychologique, thérapeutique et spirituelle permet de se révéler, guérir et se
-                libérer par l'évolution de la conscience et un processus de transmutation. Cette
-                démarche est celle de l'exploration et de la connaissance de soi. Voulez-vous
-                explorer qui vous êtes ? Voulez-vous découvrir ce que vous avez choisi de vivre et
-                de transmuter dans votre incarnation ? Je vous accompagne pour vous faire découvrir
-                les 13 aspects fondamentaux de votre « chemin de vie » inscrit dans votre date de
-                naissance :
-              </Description>
+                comprendre le pourquoi de leurs blocages, de situations qui se répètent.
+              </p>
+              <p>J'utilise le Référentiel de naissance, outil créé par George Colleuil.</p>
+              <p>
+                Cette approche psychologique, thérapeutique et spirituelle permet de se révéler,
+                guérir et se libérer par l'évolution de la conscience et un processus de
+                transmutation.
+              </p>
+              <p>
+                Cette démarche est celle de l'exploration et de la connaissance de soi. Voulez-vous
+                explorer qui vous êtes ?
+              </p>
+              <p>
+                Voulez-vous découvrir ce que vous avez choisi de vivre et de transmuter dans votre
+                incarnation ?
+              </p>
+              <p>
+                Je vous accompagne pour vous faire découvrir les 13 aspects fondamentaux de votre «
+                chemin de vie » inscrit dans votre date de naissance :
+              </p>
               <p>- votre personnalité et votre façon de penser,</p>
               <p>- votre quête fondamentale,</p>
               <p>- la manière dont vous vous réalisez,</p>
@@ -100,7 +109,7 @@ export const CheminDeVieParLeTarotDeMarseille: FC = () => {
                       Ce tarif comprend le calcul, l'étude, la consulation de 3h et la synthèse
                       écrite de votre référentiel de naissance.
                     </span>
-                    <span className="fs-7 fw-normal">Moyens de paiement: chèque ou espèces</span>
+                    <span className="fs-7 fw-normal">Moyens de paiement: virement ou espèces</span>
                   </div>
                 </div>
               </TransparentListGroupItem>
@@ -126,24 +135,6 @@ export const CheminDeVieParLeTarotDeMarseille: FC = () => {
                   </div>
                 </div>
               </TransparentListGroupItem>
-              {/* <TransparentListGroupItem className="py-3 text-light fw-bolder">
-                <div className="d-flex flex-row card-subtitle align-items-center">
-                  <i className="bi bi-info-circle fs-1 me-4"></i>
-                  <div className="d-flex flex-column justify-content-between">
-                    <p className="">Une séance de massage Couple dure environ 2h.</p>
-                    <p>Le massage en lui-même dure 1h30.</p>
-                    <p>
-                      Je vous accueille et vous propose un temps d'échange pour répondre à vos
-                      attentes et besoins spécifiques sur d'éventuelles préoccupations. Cela
-                      contribue à établir une relation de confiance pour recevoir le massage dans le
-                      respect du cadre posé.
-                    </p>
-                    <p>
-                      Le massage sera suivi d'un temps d'intégration pour revenir à vous en douceur.
-                    </p>
-                  </div>
-                </div>
-              </TransparentListGroupItem> */}
             </ul>
           </SemiTransparentTile>
         </div>
