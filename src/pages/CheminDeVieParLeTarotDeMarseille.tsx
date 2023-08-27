@@ -98,8 +98,8 @@ export const CheminDeVieParLeTarotDeMarseille: FC = () => {
                   <div className="d-flex flex-column justify-content-between ">
                     <span className="">180€</span>
                     <span className="">
-                      Ce tarif comprend la préparation avant la consultation, la consulation de 3h
-                      et un compte-rendu écrit sur votre référentiel.
+                      Ce tarif comprend le calcul, l'étude, la consulation de 3h et le compte-rendu
+                      écrit.
                     </span>
                     <span className="fs-7 fw-normal">Moyens de paiement: chèque ou espèces</span>
                   </div>
