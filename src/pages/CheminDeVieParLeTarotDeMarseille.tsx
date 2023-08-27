@@ -46,23 +46,23 @@ export const CheminDeVieParLeTarotDeMarseille: FC = () => {
                 circonstances de notre vie. Le référentiel est une carte géographique de vie,
                 composée de 13 « maisons » qui sont le reflet de 13 facettes de vous-même, obtenue
                 par calcul, basée sur votre date de naissance et représentés par les archétypes du
-                tarot de Marseille. Les archétypes nous parlent de ces parties de vous-même aussi
-                bien dans les tendances lumineuses que dans les tendances sombres de votre
-                personnalité, de vos aspirations et de votre cheminement. C'est un miroir de votre
-                inconscient qui vous conduit vers la connaissance de vous-même. Arcane après arcane,
-                maison après maison, découvrez qui vous êtes vraiment ! Je vous accompagne en
-                consultation individuelle dans un travail d'intériorisation, d'exploration de
-                vous-même et d'évolution pour comprendre le sens de votre existence, découvrir vos
-                talents, dépasser certaines difficultés de votre vie, identifier les obstacles à
-                surmonter et les problématiques à transformer, créer les actions à entreprendre pour
-                mettre fin aux situations qui se répètent… en confrontant vos expériences avec la
-                symbolique des arcanes contenus dans chaque « maison » de votre référentiel. Un être
-                ne souffre pas par hasard, une maladie (le mal a dit), une difficulté, une épreuve
-                sont des signaux pour nous faire entendre qu'une partie de nous-même n'est pas en
-                accord avec une autre. Entreprendre ce chemin initiatique et spirituel d'éveil,
-                d'ouverture de conscience, lié à votre expérience de vie, contribuera à votre
-                épanouissement personnel et professionnel en étant beaucoup plus alignés dans vos
-                choix, actions, plus connecter à votre Être et avec vos aspirations profondes.
+                tarot de Marseille. Les archétypes parlent de ces parties de vous, aussi bien dans
+                les tendances lumineuses que sombres de votre personnalité, de vos aspirations et de
+                votre cheminement. C'est un miroir de votre inconscient qui vous conduit vers la
+                connaissance de vous-m'aime. Arcane après arcane, maison après maison, découvrez qui
+                vous êtes vraiment ! Je vous accompagne en consultation individuelle dans un travail
+                d'intériorisation, d'exploration et d'évolution pour comprendre le sens de votre
+                existence, découvrir vos talents et ressources, comment dépasser certaines
+                difficultés de votre vie, identifier les obstacles à surmonter et les problématiques
+                à transformer, créer les actions à entreprendre pour mettre fin aux situations qui
+                se répètent… en confrontant vos expériences avec la symbolique des arcanes contenus
+                dans chaque « maison » de votre référentiel. Un être ne souffre pas par hasard, une
+                maladie (le mal a dit), une difficulté, une épreuve sont des signaux pour nous faire
+                entendre qu'une partie de nous-même n'est pas en accord avec une autre. Entreprendre
+                ce chemin initiatique et spirituel d'éveil, d'ouverture de conscience, lié à votre
+                expérience de vie, contribuera à votre épanouissement personnel et professionnel en
+                étant beaucoup plus alignés dans vos choix, actions, plus connecter à votre Être et
+                avec vos aspirations profondes.
               </Description>
             </ReadMoreReadLess>
           </SemiTransparentTile>
