@@ -14,10 +14,10 @@ export const CheminDeVieParLeTarotDeMarseille: FC = () => {
   return (
     <>
       <PublicPageLayoutWithFixedBackgroundImage
-        backgroundImageUrl="/images/landing-page-background.jpg"
-        backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.05), rgba(79, 79, 93, 0.1))"
+        backgroundImageUrl="/images/lhermite.webp"
+        backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.6), rgba(79, 79, 93, 0.1))"
         backgroundPositionX="60%"
-        backgroundPositionY="33%"
+        backgroundPositionY="0%"
         htmlTitle={`Chemin de vie par le tarot de Marseille | ${websiteConfig.websiteTitle}`}
       >
         <div className="w-100 d-flex flex-column justify-content-start align-items-center">
@@ -26,7 +26,7 @@ export const CheminDeVieParLeTarotDeMarseille: FC = () => {
           </div>
           <div className="" style={{ minHeight: '7vh' }}></div>
           <SemiTransparentTile
-            background="linear-gradient(rgb(40, 26, 174, 0.6), rgba(79, 79, 93, 0.3)"
+            background="linear-gradient(rgb(14, 62, 106,0.4), rgba(14, 62, 106,0.3))"
             className="card text-start text-light fs-2 font-monserrat px-4 py-4"
           >
             <ReadMoreReadLess
@@ -67,7 +67,7 @@ export const CheminDeVieParLeTarotDeMarseille: FC = () => {
             </ReadMoreReadLess>
           </SemiTransparentTile>
           <SemiTransparentTile
-            background="linear-gradient(rgb(40, 26, 174, 0.6), rgba(79, 79, 93, 0.3)"
+            background="linear-gradient(rgb(14, 62, 106,0.4), rgba(14, 62, 106,0.3))"
             className="w-100 card text-start text-light font-monserrat mt-4"
           >
             <div className="card-body">
@@ -78,7 +78,9 @@ export const CheminDeVieParLeTarotDeMarseille: FC = () => {
                 <div className="d-flex flex-row align-items-center card-subtitle">
                   <i className="bi bi-clock-history fs-3 me-4"></i>
                   <div className="d-flex flex-column card-subtitle pt-1">
-                    <span className="text-nowrap fs-7">2h</span>
+                    <span className="text-nowrap fs-7">
+                      Consultation de 3h découpée en deux séances de 1h30
+                    </span>
                   </div>
                 </div>
               </TransparentListGroupItem>
@@ -87,32 +89,7 @@ export const CheminDeVieParLeTarotDeMarseille: FC = () => {
                 <div className="d-flex flex-row align-items-center card-subtitle">
                   <i className="bi bi-geo-alt fs-3 me-4"></i>
                   <div className="d-flex flex-column card-subtitle">
-                    <span className="text-nowrap fs-7">6 allée du mortier</span>
-                    <span className="text-nowrap fs-7">44620 LA MONTAGNE</span>
-                    {websiteConfig.links.googleMaps.show && (
-                      <OpenExternalLinkButton
-                        className="btn btn-outline-light fw-bolder w-100 mt-0"
-                        link={websiteConfig.links.googleMaps.url}
-                        analyticsEvent="open-google-maps"
-                        title={websiteConfig.links.googleMaps.title}
-                      >
-                        <div className="d-flex flex-column align-items-center">
-                          <span className="">{websiteConfig.links.googleMaps.label}</span>
-                        </div>
-                      </OpenExternalLinkButton>
-                    )}
-                    {websiteConfig.links.waze.show && (
-                      <OpenExternalLinkButton
-                        className="btn btn-outline-light fw-bolder w-100 mt-2"
-                        link={websiteConfig.links.waze.url}
-                        analyticsEvent="open-waze"
-                        title={websiteConfig.links.waze.title}
-                      >
-                        <div className="d-flex flex-column align-items-center">
-                          <span className="">{websiteConfig.links.waze.label}</span>
-                        </div>
-                      </OpenExternalLinkButton>
-                    )}
+                    <span className="text-nowrap fs-7">En présentiel ou en visio</span>
                   </div>
                 </div>
               </TransparentListGroupItem>
@@ -120,7 +97,11 @@ export const CheminDeVieParLeTarotDeMarseille: FC = () => {
                 <div className="d-flex flex-row card-subtitle align-items-center">
                   <i className="bi bi-currency-euro fs-3 me-4"></i>
                   <div className="d-flex flex-column justify-content-between ">
-                    <span className="">300€</span>
+                    <span className="">180€</span>
+                    <span className="">
+                      Ce tarif comprend la préparation avant la consultation, la consulation de 3h
+                      et un compte-rendu écrit sur votre référentiel.
+                    </span>
                     <span className="fs-7 fw-normal">Moyens de paiement: chèque ou espèces</span>
                   </div>
                 </div>
@@ -150,7 +131,7 @@ export const CheminDeVieParLeTarotDeMarseille: FC = () => {
                     >
                       <div className="d-flex flex-column align-items-center">
                         <span className="">
-                          Sandra Giraudeau{' '}
+                          Isabelle Hervouet{' '}
                           <PhoneNumber phoneNumber={websiteConfig.links.phone.url} />
                         </span>
                       </div>
