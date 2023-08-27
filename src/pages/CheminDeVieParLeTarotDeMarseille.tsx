@@ -86,7 +86,7 @@ export const CheminDeVieParLeTarotDeMarseille: FC = () => {
                   <i className="bi bi-clock-history fs-3 me-4"></i>
                   <div className="d-flex flex-column card-subtitle pt-1">
                     <span className="text-wrap fs-7">
-                      Consultation de 3h découpée en deux séances de 1h30
+                      Consultation de 3h, en deux séances de 1h30
                     </span>
                   </div>
                 </div>
