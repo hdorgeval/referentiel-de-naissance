@@ -98,8 +98,8 @@ export const CheminDeVieParLeTarotDeMarseille: FC = () => {
                   <div className="d-flex flex-column justify-content-between ">
                     <span className="">180€</span>
                     <span className="">
-                      Ce tarif comprend le calcul, l'étude, la consulation de 3h et le compte-rendu
-                      écrit.
+                      Ce tarif comprend le calcul, l'étude, la consulation de 3h et la synthèse
+                      écrite de votre référentiel de naissance.
                     </span>
                     <span className="fs-7 fw-normal">Moyens de paiement: chèque ou espèces</span>
                   </div>
