@@ -45,7 +45,47 @@ export const QuiSuisJe: FC = () => {
               de la vie c'est de passer de la peur à l'amour ». Frédéric Lenoir
             </Description>
 
-            <p className=""></p>
+            <p className="fs-2">Mes apprentissages</p>
+            <p>J'ai eu la chance et l'opportunité de me former à différentes pratiques :</p>
+            <p className="">
+              <span className="text-info">La Sophrologie</span> auprès de l'académie de sophrologie
+              de Paris et du Dr Chéné ou je suis certifiée RCNP;
+            </p>
+            <p>
+              <span className="text-info fw-bolder">
+                Le Référentiel de naissance par le tarot de Marseille
+              </span>{' '}
+              auprès de Maïté Elissalde;
+            </p>
+            <p>
+              <span className="text-info fw-bolder">La Numérologie Karmique</span> auprès de Maïté
+              Elissalde;
+            </p>
+            <p>
+              <span className="text-info fw-bolder">Le Chamanisme matriciel</span> auprès de Pierre
+              Dugenetay;
+            </p>
+            <p>
+              <span className="text-info fw-bolder">La Trame</span> auprès de Catherine Didelot;
+            </p>
+            <p>
+              <span className="text-info fw-bolder">
+                Les Constellations Familiales et Systémiques
+              </span>{' '}
+              auprès de Jean-Marc Belanger;
+            </p>
+            <p>
+              <span className="text-info fw-bolder">L'harmonisation émotionnelle</span> auprès de
+              Régis Grouard;
+            </p>
+            <p>
+              <span className="text-info fw-bolder">L'Hypnose Ericksonienne</span> auprès de
+              Jean-Marie et Bernadette Caplain;
+            </p>
+            <p>
+              <span className="text-info fw-bolder">Le Tantra</span> auprès de Tantra intégral et
+              Jacques Ferber.
+            </p>
             <p className="mb-0 pb-0"></p>
           </SemiTransparentTile>
         </div>
