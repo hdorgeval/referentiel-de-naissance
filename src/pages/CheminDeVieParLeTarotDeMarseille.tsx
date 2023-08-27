@@ -18,11 +18,11 @@ export const CheminDeVieParLeTarotDeMarseille: FC = () => {
         backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.05), rgba(79, 79, 93, 0.1))"
         backgroundPositionX="60%"
         backgroundPositionY="33%"
-        htmlTitle={`Chemin de vie apr le tarot de Marseille | ${websiteConfig.websiteTitle}`}
+        htmlTitle={`Chemin de vie par le tarot de Marseille | ${websiteConfig.websiteTitle}`}
       >
         <div className="w-100 d-flex flex-column justify-content-start align-items-center">
           <div className="mt-7">
-            <PageTitle>Chemin de vie apr le tarot de Marseille</PageTitle>
+            <PageTitle>Chemin de vie par le tarot de Marseille</PageTitle>
           </div>
           <div className="" style={{ minHeight: '7vh' }}></div>
           <SemiTransparentTile
