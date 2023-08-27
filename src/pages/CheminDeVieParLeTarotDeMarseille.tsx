@@ -26,7 +26,7 @@ export const CheminDeVieParLeTarotDeMarseille: FC = () => {
           <div className="" style={{ minHeight: '7vh' }}></div>
           <SemiTransparentTile
             background="linear-gradient(rgb(14, 62, 106,0.4), rgba(14, 62, 106,0.3))"
-            className="card text-start text-light fs-4 font-monserrat px-4 py-4"
+            className="card text-start text-light fs-4 font-monserrat fw-bolder px-4 py-4"
           >
             <ReadMoreReadLess
               height={'21vh'}
@@ -77,7 +77,7 @@ export const CheminDeVieParLeTarotDeMarseille: FC = () => {
                 <div className="d-flex flex-row align-items-center card-subtitle">
                   <i className="bi bi-clock-history fs-3 me-4"></i>
                   <div className="d-flex flex-column card-subtitle pt-1">
-                    <span className="text-nowrap fs-7">
+                    <span className="text-wrap fs-7">
                       Consultation de 3h découpée en deux séances de 1h30
                     </span>
                   </div>
