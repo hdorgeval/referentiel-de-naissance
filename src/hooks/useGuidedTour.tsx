@@ -1,6 +1,7 @@
 import introJs from 'intro.js';
+import type { IntroStep, TooltipPosition } from 'intro.js/src/core/steps';
 import { useCallback, useEffect, useState } from 'react';
-import { Location, useLocation } from 'react-router';
+import { useLocation } from 'react-router';
 import useLocalStorageState from 'use-local-storage-state';
 import { websiteConfig } from '../website.config';
 import { useAnalytics } from './useAnalytics';
@@ -11,18 +12,10 @@ export interface AppStep {
   content: string;
   title?: string;
   url?: string;
-  position:
-    | 'top'
-    | 'left'
-    | 'right'
-    | 'bottom'
-    | 'bottom-left-aligned'
-    | 'bottom-middle-aligned'
-    | 'bottom-right-aligned'
-    | 'auto';
+  position: TooltipPosition;
 }
 
-export interface ExtendedIntojsStep extends introJs.Step {
+export interface ExtendedIntrojsStep extends IntroStep {
   id: string;
 }
 
@@ -31,7 +24,7 @@ const allSteps: AppStep[] = [
     id: 'v1.step-1',
     selector: '[data-tour-id="step-1"]',
     content: 'Cliquez ici pour découvrir tout ce que je propose',
-    position: 'left',
+    position: 'top',
     title: 'Bienvenue !!!',
     url: '/',
   },
@@ -40,8 +33,7 @@ const allSteps: AppStep[] = [
 export const useGuidedTour = () => {
   const { trackSimpleEvent } = useAnalytics();
   const [hasStarted, setHasStarted] = useState(false);
-  const [showCheckboxDontShowAgain] = useState(false);
-  const location = useLocation() as Location;
+  const location = useLocation();
   const [tour, setTour] = useState(
     introJs().setOptions({
       overlayOpacity: 0,
@@ -54,9 +46,9 @@ export const useGuidedTour = () => {
       showStepNumbers: false,
       exitOnEsc: true,
       exitOnOverlayClick: true,
-      dontShowAgain: showCheckboxDontShowAgain,
+      dontShowAgain: false,
       buttonClass: 'btn btn-primary',
-    } as introJs.Options),
+    }),
   );
   const [doneSteps, setDoneSteps] = useLocalStorageState<string[]>(
     `${websiteConfig.websiteUrl}.guided-tour.done-steps`,
@@ -73,7 +65,7 @@ export const useGuidedTour = () => {
         }
         setDoneSteps([...doneSteps, step.id]);
         evt.currentTarget?.removeEventListener('click', eventListener);
-        tour.exit();
+        tour.exit(true);
       }
       return eventListener;
     },
@@ -128,7 +120,7 @@ export const useGuidedTour = () => {
       if (websiteConfig.displayGuidedTour === false) {
         return [];
       }
-      const stepsToRun: ExtendedIntojsStep[] = steps
+      const stepsToRun = steps
         .filter((s) => !isStepDone(s))
         .filter((s) => isStepOnRightLocation(s))
         .filter((s) => isStepsSelectorInDom(s))
@@ -167,7 +159,7 @@ export const useGuidedTour = () => {
           return;
         }
         if (hasStarted && remainingSteps.length === 0) {
-          tour.exit();
+          tour.exit(true);
         }
       } catch (error) {
         // TODO : log error

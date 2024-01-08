@@ -19,6 +19,10 @@
   border-color: var(--bs-gray) !important;
   background-color: rgba(25, 25, 25, 0.8) !important;
 }
+.introjs-tooltip.introjs-bottom-left-aligned {
+  top: 80px !important;
+  left: 15px !important;
+}
 
 .introjs-tooltiptext,
 .introjs-tooltipbuttons,
@@ -47,6 +51,14 @@
 
 .introjs-arrow {
   border-color: transparent transparent transparent rgba(200, 200, 200, 0.5) !important;
+}
+
+.introjs-arrow.top,
+.introjs-arrow.top-middle,
+.introjs-arrow.top-right {
+  border-color: transparent transparent rgba(000, 0, 0, 0.5) !important;
+  top: -20px;
+  left: 20px;
 }
 
 .introjs-skipbutton:hover {
