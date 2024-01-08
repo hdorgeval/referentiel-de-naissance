@@ -47,7 +47,7 @@ export const websiteConfig: WebSiteConfig = {
   legalNotice: {
     lastUpdate: '2023/06/21',
   },
-  displayGuidedTour: false,
+  displayGuidedTour: true,
   displaySocialLinksInFooter: true,
   displaySocialLinksViaButton: true,
   links: {
