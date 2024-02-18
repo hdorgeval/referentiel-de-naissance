@@ -1,19 +1,12 @@
 import { FC } from 'react';
 
 function toClosedSentence(sentence: string): string {
-  if (
-    hasColonsAtTheEnd(sentence) ||
-    hasSemiColonsAtTheEnd(sentence) ||
-    hasExclamationPointAtTheEnd(sentence) ||
-    hasSmileyAtTheEnd(sentence)
-  ) {
-    return decodeThreeDots(sentence);
-  }
-  if (hasThreeDotsAtTheEnd(sentence)) {
-    return decodeThreeDots(sentence);
+  const decodedSentence = decodeThreeDots(decodeExclamationPoint(sentence));
+  if (hasExclamationPointAtTheEnd(decodedSentence) || hasThreeDotsAtTheEnd(decodedSentence)) {
+    return decodedSentence;
   }
 
-  return `${decodeThreeDots(sentence)}.`;
+  return `${decodedSentence}.`;
 }
 
 function toSentenceWithNotes(sentence: string): string {
@@ -28,6 +21,10 @@ function encodeThreeDots(sentence: string): string {
   return sentence.replaceAll('...', '|||');
 }
 
+function encodeExclamationPoint(sentence: string): string {
+  return sentence.replaceAll('!', 'III.');
+}
+
 function encodeNote(sentence: string): string {
   return sentence.replaceAll('*', '<sup class="">*</sup>');
 }
@@ -35,28 +32,20 @@ function encodeNote(sentence: string): string {
 function decodeThreeDots(sentence: string): string {
   return sentence.replaceAll('|||', '...');
 }
+function decodeExclamationPoint(sentence: string): string {
+  return sentence.replaceAll('III', '!');
+}
 
 function hasThreeDotsAtTheEnd(sentence: string): boolean {
-  return sentence.endsWith('|||');
+  return sentence.endsWith('...');
 }
 
 function hasNote(sentence: string): boolean {
   return sentence.includes('*');
 }
-function hasColonsAtTheEnd(sentence: string): boolean {
-  return sentence.endsWith(':');
-}
-
-function hasSemiColonsAtTheEnd(sentence: string): boolean {
-  return sentence.endsWith(';');
-}
 
 function hasExclamationPointAtTheEnd(sentence: string): boolean {
   return sentence.endsWith('!');
-}
-
-function hasSmileyAtTheEnd(sentence: string): boolean {
-  return sentence.endsWith(';)') || sentence.endsWith(':)');
 }
 
 function toEmphasized(
@@ -105,8 +94,8 @@ export const Description: FC<DescriptionOwnProps> = ({
   if (typeof children !== 'string') {
     return <>{children}</>;
   }
-  const text = children as string;
-  const sentences = encodeThreeDots(text)
+  const text = children;
+  const sentences = encodeThreeDots(encodeExclamationPoint(text))
     .split('.')
     .map((s) => s.trim())
     .filter((s) => s.length > 0);
