@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, redirect, RouterProvider } from 'react-router-dom';
 import { UserContext, useUserContextInfo } from './contexts/userContext';
 import { CheminDeVieParLeTarotDeMarseille } from './pages/CheminDeVieParLeTarotDeMarseille';
 import { ErrorPage } from './pages/ErrorPage';
@@ -27,6 +27,11 @@ const router = createBrowserRouter([
   },
   {
     path: '/chemin-de-vie-par-le-tarot-de-marseille',
+    element: <CheminDeVieParLeTarotDeMarseille />,
+    loader: async () => redirect('/theme-de-naissance-par-le-tarot-de-marseille'),
+  },
+  {
+    path: '/theme-de-naissance-par-le-tarot-de-marseille',
     element: <CheminDeVieParLeTarotDeMarseille />,
   },
 ]);

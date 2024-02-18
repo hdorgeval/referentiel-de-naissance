@@ -110,9 +110,9 @@ export const HambugerMenu: FC = () => {
                   Mes offres
                 </div>
                 <div className="d-flex p-1 flex-row flex-wrap align-items-center">
-                  <Link to="/chemin-de-vie-par-le-tarot-de-marseille">
+                  <Link to="/theme-de-naissance-par-le-tarot-de-marseille">
                     <span className="badge rounded-pill text-bg-bordeaux fs-7 border border-secondary m-1">
-                      Chemin de vie par le tarot de Marseille
+                      Thème de naissance par le tarot de Marseille
                     </span>
                   </Link>
                   <Link to="/#">
