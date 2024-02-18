@@ -8,7 +8,7 @@ import { PageTitle } from './page-layout/PageTitle';
 import { PublicPageLayoutWithFixedBackgroundImage } from './page-layout/PublicPageLayoutWithFixedBackgroundImage';
 import { SemiTransparentTile } from './page-layout/SemiTransparentTile';
 import { TransparentListGroupItem } from './page-layout/TransparentListGroupItem';
-export const CheminDeVieParLeTarotDeMarseille: FC = () => {
+export const ThemeDeNaissanceParLeTarotDeMarseille: FC = () => {
   return (
     <PublicPageLayoutWithFixedBackgroundImage
       backgroundImageUrl="/images/lhermite.png"
@@ -130,4 +130,4 @@ export const CheminDeVieParLeTarotDeMarseille: FC = () => {
   );
 };
 
-CheminDeVieParLeTarotDeMarseille.displayName = 'CheminDeVieParLeTarotDeMarseille';
+ThemeDeNaissanceParLeTarotDeMarseille.displayName = 'ThemeDeNaissanceParLeTarotDeMarseille';

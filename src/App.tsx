@@ -1,11 +1,11 @@
 import { createBrowserRouter, redirect, RouterProvider } from 'react-router-dom';
 import { UserContext, useUserContextInfo } from './contexts/userContext';
-import { CheminDeVieParLeTarotDeMarseille } from './pages/CheminDeVieParLeTarotDeMarseille';
 import { ErrorPage } from './pages/ErrorPage';
 import { LandingPage } from './pages/LandingPage';
 import { MentionsLegales } from './pages/MentionsLegales';
 import { QuiSuisJe } from './pages/QuiSuisJe';
 import { Temoignages } from './pages/Temoignages';
+import { ThemeDeNaissanceParLeTarotDeMarseille } from './pages/ThemeDeNaissanceParLeTarotDeMarseille';
 
 const router = createBrowserRouter([
   {
@@ -27,12 +27,11 @@ const router = createBrowserRouter([
   },
   {
     path: '/chemin-de-vie-par-le-tarot-de-marseille',
-    element: <CheminDeVieParLeTarotDeMarseille />,
     loader: async () => redirect('/theme-de-naissance-par-le-tarot-de-marseille'),
   },
   {
     path: '/theme-de-naissance-par-le-tarot-de-marseille',
-    element: <CheminDeVieParLeTarotDeMarseille />,
+    element: <ThemeDeNaissanceParLeTarotDeMarseille />,
   },
 ]);
 
