@@ -16,6 +16,8 @@ export type MyAnalyticsEvent =
   | 'rdv-entretien-prealable'
   | 'rdv-ou-contact'
   | 'tel-tarot'
+  | 'tel-trame'
+  | 'rdv-form-trame'
   | 'rdv-tarot';
 
 export type CommandType = 'js' | 'config' | 'event';

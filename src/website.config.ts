@@ -11,6 +11,20 @@ export interface WebSiteConfig {
   displayGuidedTour: boolean;
   displaySocialLinksInFooter: boolean;
   displaySocialLinksViaButton: boolean;
+  displayAccountButtons: boolean;
+  recaptchaV2: RecaptchaV2;
+  selectOptions: Record<string, SelectOptions[]>;
+}
+
+export interface SelectOptions {
+  label: string;
+  value?: string;
+}
+
+export interface RecaptchaV2 {
+  sitekey: string;
+  theme: 'dark' | 'light';
+  size: 'normal' | 'compact';
 }
 
 export interface LegalNotice {
@@ -50,6 +64,7 @@ export const websiteConfig: WebSiteConfig = {
   displayGuidedTour: true,
   displaySocialLinksInFooter: true,
   displaySocialLinksViaButton: true,
+  displayAccountButtons: false,
   links: {
     phone: {
       url: '0601908352',
@@ -111,5 +126,17 @@ export const websiteConfig: WebSiteConfig = {
       label: 'Itinéraire via Waze',
       show: true,
     },
+  },
+  recaptchaV2: {
+    sitekey: '6LeGmIYpAAAAADiTPzIerxVlDXkAF6WjDbY_ahM-',
+    theme: 'dark',
+    size: 'normal',
+  },
+  selectOptions: {
+    'contact-form-subjects': [
+      { label: 'Trame' },
+      { label: 'Thème de naissance par le tarot de Marseille' },
+      { label: 'Autre' },
+    ],
   },
 };

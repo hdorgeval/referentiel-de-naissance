@@ -1,13 +1,15 @@
 import { FC, useMemo } from 'react';
 import { usePublicPage } from '../../contexts/userContext';
 import { useGuidedTour } from '../../hooks/useGuidedTour';
+import { useHashToScrollIfNeeded } from '../../hooks/useHashToScrollIfNeeded';
 import { useMetaDescription } from '../../hooks/useMetaDescription';
 import { useOffCanvasBackdropRemover } from '../../hooks/useOffCanvasBackdropRemover';
 import { useTitle } from '../../hooks/useTitle';
 import { Footer } from './Footer';
 import { HambugerMenu } from './HamburgerMenu';
-export interface PageLyoutOwnProps {
+export interface PageLayoutOwnProps {
   backgroundImageUrl: string;
+  backgroundColor?: string;
   backgroundOverlay?: string;
   backgroundPosition?: string;
   backgroundPositionX?: string;
@@ -17,8 +19,9 @@ export interface PageLyoutOwnProps {
   htmlTitle: string;
 }
 
-export const PublicPageLayoutWithFixedBackgroundImage: FC<PageLyoutOwnProps> = ({
+export const PublicPageLayoutWithFixedBackgroundImage: FC<PageLayoutOwnProps> = ({
   backgroundImageUrl,
+  backgroundColor,
   backgroundOverlay,
   backgroundPosition,
   backgroundPositionX,
@@ -27,6 +30,7 @@ export const PublicPageLayoutWithFixedBackgroundImage: FC<PageLyoutOwnProps> = (
   children,
   htmlTitle,
 }) => {
+  useHashToScrollIfNeeded();
   useOffCanvasBackdropRemover();
   usePublicPage();
   useGuidedTour();
@@ -61,6 +65,7 @@ export const PublicPageLayoutWithFixedBackgroundImage: FC<PageLyoutOwnProps> = (
         className=""
         style={{
           backgroundImage: `url("${backgroundImageUrl}")`,
+          backgroundColor: backgroundColor,
           height: '100vh',
           backgroundPositionX: computedBackgroundPositionX,
           backgroundPositionY: computedBackgroundPositionY,
@@ -76,7 +81,10 @@ export const PublicPageLayoutWithFixedBackgroundImage: FC<PageLyoutOwnProps> = (
             height: '100vh',
           }}
         >
-          <div className="container h-100 d-flex flex-column align-items-center overflow-y-scroll">
+          <div
+            id="scrollable-page-container"
+            className="container-fluid h-100 d-flex flex-column align-items-center overflow-y-scroll"
+          >
             {children}
             <Footer />
           </div>

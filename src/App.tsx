@@ -1,7 +1,10 @@
 import { createBrowserRouter, redirect, RouterProvider } from 'react-router-dom';
 import { UserContext, useUserContextInfo } from './contexts/userContext';
+import { ContactFormError } from './pages/ContactFormError';
+import { ContactFormSuccessfullySent } from './pages/ContactFormSuccessfullySent';
 import { ErrorPage } from './pages/ErrorPage';
 import { LandingPage } from './pages/LandingPage';
+import { LaTrame } from './pages/LaTrame';
 import { MentionsLegales } from './pages/MentionsLegales';
 import { QuiSuisJe } from './pages/QuiSuisJe';
 import { Temoignages } from './pages/Temoignages';
@@ -12,6 +15,14 @@ const router = createBrowserRouter([
     path: '/',
     element: <LandingPage />,
     errorElement: <ErrorPage />,
+  },
+  {
+    path: '/contact/success',
+    element: <ContactFormSuccessfullySent />,
+  },
+  {
+    path: '/contact/error',
+    element: <ContactFormError />,
   },
   {
     path: '/mentions-legales',
@@ -32,6 +43,10 @@ const router = createBrowserRouter([
   {
     path: '/theme-de-naissance-par-le-tarot-de-marseille',
     element: <ThemeDeNaissanceParLeTarotDeMarseille />,
+  },
+  {
+    path: '/la-trame',
+    element: <LaTrame />,
   },
 ]);
 
