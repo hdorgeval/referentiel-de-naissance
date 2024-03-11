@@ -10,20 +10,20 @@ import { TransparentListGroupItem } from './page-layout/TransparentListGroupItem
 export const ThemeDeNaissanceParLeTarotDeMarseille: FC = () => {
   return (
     <PublicPageLayoutWithFixedBackgroundImage
-      backgroundImageUrl="/images/lhermite.png"
+      backgroundImageUrl="/images/backgrounds/theme-de-naissance.png"
       backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.6), rgba(79, 79, 93, 0.1))"
       backgroundPositionX="60%"
       backgroundPositionY="0%"
       htmlTitle={`Thème de naissance par le tarot de Marseille | ${websiteConfig.websiteTitle}`}
     >
-      <div className="w-100 d-flex flex-column justify-content-start align-items-center">
+      <div className="d-flex flex-column justify-content-start align-items-center">
         <div className="mt-7">
           <PageTitle>Thème de naissance par le tarot de Marseille</PageTitle>
         </div>
         <div className="" style={{ minHeight: '7vh' }}></div>
         <SemiTransparentTile
           background="linear-gradient(rgb(14, 62, 106,0.4), rgba(14, 62, 106,0.3))"
-          className="card text-start text-light fs-4 font-monserrat px-4 py-4"
+          className="card card-lg text-start text-light fs-4 font-monserrat px-4 py-4"
         >
           <ReadMoreReadLess height={'21vh'} readMoreText={'Lire plus'} readLessText={'Lire moins'}>
             <p>
@@ -69,7 +69,7 @@ export const ThemeDeNaissanceParLeTarotDeMarseille: FC = () => {
         </SemiTransparentTile>
         <SemiTransparentTile
           background="linear-gradient(rgb(14, 62, 106,0.4), rgba(14, 62, 106,0.3))"
-          className="w-100 card text-start text-light font-monserrat mt-4"
+          className="w-100 card card-lg text-start text-light font-monserrat mt-4"
         >
           <div className="card-body">
             <h5 className="card-title mb-0 fw-bolder">Déroulement et tarifs</h5>
