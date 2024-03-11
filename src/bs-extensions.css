@@ -303,6 +303,11 @@
   background-color: RGBA(109, 7, 26, var(--bs-bg-opacity, 0.5)) !important;
 }
 
+.text-bg-badge-burger-menu {
+  color: #fff !important;
+  background-color: rgba(14, 27, 104, var(--bs-bg-opacity, 0.32)) !important;
+}
+
 .btn-close-thick-3 {
   display: block;
   margin: 0;
