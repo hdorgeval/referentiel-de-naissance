@@ -184,7 +184,7 @@ export const LaTrame: FC = () => {
           modalId="prendre-rendez-vous"
           analyticsEvent="rdv-form-trame"
           subjectOptions={[{ label: 'Prendre un rendez-vous Trame' }, { label: 'Autre' }]}
-          backgroundColor="#1f3a28"
+          backgroundColor="#0d1425"
         ></RendezVousModal>
       </div>
     </PublicPageLayoutWithFixedBackgroundImage>
