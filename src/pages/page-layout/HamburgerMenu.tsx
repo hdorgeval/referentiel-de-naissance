@@ -7,8 +7,8 @@ export const HambugerMenu: FC = () => {
   const isOnHomePage = useMemo(() => {
     return location.pathname === '/';
   }, [location.pathname]);
-  const backgroundImageUrl = '/images/backgrounds/burger-menu.png';
-  const computedBackgroundPositionX = -100;
+  const backgroundImageUrl = '/images/backgrounds/burger-menu-01.jpg';
+  const computedBackgroundPositionX = -33;
   const computedBackgroundPositionY = 0;
   const defaultBackgroundOverlay =
     'linear-gradient(to bottom,rgba(0, 0, 0, 0.7), rgba(79, 79, 93, 0.20))';
