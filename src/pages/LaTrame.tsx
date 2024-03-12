@@ -41,15 +41,15 @@ export const LaTrame: FC = () => {
               readLessText={'Lire moins'}
             >
               <Description>
-                La Trame est une méthode vibratoire et ondulatoire mise au point par Patrick
-                Burensteinas en 1990, permettant d'agir sur la circulation de l'information dans le
-                corps afin d'harmoniser le corps et l'esprit. La trame s'adresse à tous, adultes et
-                enfants. La circulation harmonieuse de l'information est la base de notre équilibre
-                et de la santé. Une perturbation de cette circulation peut entraîner des désordres,
-                des déséquilibres. Le corps nous envoie des signaux d'alarme pour nous faire réagir,
-                nous indiquer qu'il est temps de s'écouter et d'agir (tensions, douleurs, fatigue,
-                anxiété, instabilité, mal-être, perte de sens, déconnexion de soi…). Notre corps est
-                une antenne précieuse.
+                La Trame est un soin vibratoire et ondulatoire mis au point par Patrick Burensteinas
+                en 1990, permettant d'agir sur la circulation de l'information dans le corps afin
+                d'harmoniser le corps et l'esprit. La trame s'adresse à tous, adultes et enfants. La
+                circulation harmonieuse de l'information est la base de notre équilibre et de la
+                santé. Une perturbation de cette circulation peut entraîner des désordres, des
+                déséquilibres. Notre corps est une antenne précieuse qui nous envoie des signaux
+                d'alarme pour nous faire réagir, nous indiquer qu'il est temps de s'écouter et
+                d'agir (tensions, douleurs, fatigue, anxiété, instabilité, mal-être, perte de sens,
+                déconnexion de soi…).
               </Description>
 
               <p className="">
@@ -108,7 +108,9 @@ export const LaTrame: FC = () => {
                 <div className="d-flex flex-row align-items-center card-subtitle">
                   <i className="bi bi-geo-alt fs-3 me-4"></i>
                   <div className="d-flex flex-column card-subtitle">
-                    <span className="text-nowrap fs-7 mt-1">Je vous reçois à Paris</span>
+                    <span className="text-nowrap fs-7">Je vous reçois au :</span>
+                    <span className="text-nowrap fs-7 mt-2">32 rue Médéric</span>
+                    <span className="text-nowrap fs-7">92250 La Garenne Colombes</span>
                   </div>
                 </div>
               </TransparentListGroupItem>
@@ -158,10 +160,13 @@ export const LaTrame: FC = () => {
                     <Description>
                       Une séance dure environ une heure. Durant la séance, la personne est habillée,
                       allongée sur le dos. Le praticien pose les mains sur la personne et réalise
-                      une séquence de 16 gestes codifiés, de 45mn environ, par un toucher subtil sur
+                      une séquence de 16 gestes codifiés, de 40mn environ, par un toucher subtil sur
                       le tronc, les pieds et la tête. Cette séquence ne s'apparente pas à un
-                      massage. Il s'ensuit un état d'apaisement, de profonde détente. Les séances
-                      sont espacées de 3 à 4 semaines car la Trame continue d'agir et à rééquilibrer
+                      massage.La séance débute et se termine par un temps d'échange avec la personne
+                    </Description>
+                    <Description>
+                      Il s'ensuit un état d'apaisement, de profonde détente. Les séances sont
+                      espacées de 3 à 4 semaines car la Trame continue d'agir et à rééquilibrer
                       après une séance. Ce temps permet au corps de s'auto-réguler.
                     </Description>
 
