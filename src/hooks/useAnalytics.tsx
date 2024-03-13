@@ -18,6 +18,7 @@ export type MyAnalyticsEvent =
   | 'tel-tarot'
   | 'tel-trame'
   | 'rdv-form-trame'
+  | 'rdv-form-rdn'
   | 'rdv-tarot';
 
 export type CommandType = 'js' | 'config' | 'event';
