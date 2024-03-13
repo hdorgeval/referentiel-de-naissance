@@ -17,6 +17,7 @@ export type MyAnalyticsEvent =
   | 'rdv-ou-contact'
   | 'tel-tarot'
   | 'tel-trame'
+  | 'rdv-form-sophrologie'
   | 'rdv-form-trame'
   | 'rdv-form-rdn'
   | 'rdv-tarot';

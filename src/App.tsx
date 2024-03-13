@@ -7,6 +7,7 @@ import { LandingPage } from './pages/LandingPage';
 import { LaTrame } from './pages/LaTrame';
 import { MentionsLegales } from './pages/MentionsLegales';
 import { QuiSuisJe } from './pages/QuiSuisJe';
+import { Sophrologie } from './pages/Sophrologie';
 import { Temoignages } from './pages/Temoignages';
 import { ThemeDeNaissanceParLeTarotDeMarseille } from './pages/ThemeDeNaissanceParLeTarotDeMarseille';
 
@@ -47,6 +48,10 @@ const router = createBrowserRouter([
   {
     path: '/la-trame',
     element: <LaTrame />,
+  },
+  {
+    path: '/sophrologie',
+    element: <Sophrologie />,
   },
 ]);
 

@@ -129,7 +129,7 @@ export const HambugerMenu: FC = () => {
                         La Trame
                       </span>
                     </Link>
-                    <Link to="/#">
+                    <Link to="/sophrologie">
                       <span className="badge rounded-pill text-bg-badge-burger-menu fs-7 border border-secondary m-1">
                         Sophrologie
                       </span>
