@@ -1,5 +1,6 @@
 import { createBrowserRouter, redirect, RouterProvider } from 'react-router-dom';
 import { UserContext, useUserContextInfo } from './contexts/userContext';
+import { ConstellationsFamilialesEtSystemiques } from './pages/ConstellationsFamilialesEtSystemiques';
 import { ContactFormError } from './pages/ContactFormError';
 import { ContactFormSuccessfullySent } from './pages/ContactFormSuccessfullySent';
 import { ErrorPage } from './pages/ErrorPage';
@@ -57,6 +58,10 @@ const router = createBrowserRouter([
   {
     path: '/massage-tantrique-tao',
     element: <MassageTantriqueTao />,
+  },
+  {
+    path: '/constellations-familiales-et-systemiques',
+    element: <ConstellationsFamilialesEtSystemiques />,
   },
 ]);
 

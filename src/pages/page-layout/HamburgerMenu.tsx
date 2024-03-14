@@ -139,9 +139,9 @@ export const HambugerMenu: FC = () => {
                         Sophrologie
                       </span>
                     </Link>
-                    <Link to="/#">
+                    <Link to="/constellations-familiales-et-systemiques">
                       <span className="badge rounded-pill text-bg-badge-burger-menu fs-7 border border-secondary m-1">
-                        Constellations familiales
+                        Constellations familiales et systémiques
                       </span>
                     </Link>
                   </div>
