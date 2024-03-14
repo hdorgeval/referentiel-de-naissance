@@ -14,7 +14,7 @@ export const LaTrame: FC = () => {
   return (
     <PublicPageLayoutWithFixedBackgroundImage
       backgroundImageUrl="/images/backgrounds/trame-page-02.png"
-      backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.2), rgba(79, 79, 93, 0.2))"
+      backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.2), rgba(79, 79, 93, 0.1))"
       backgroundPositionX="64%"
       backgroundPositionY="84%"
       htmlTitle={`La Trame | ${websiteConfig.websiteTitle}`}
