@@ -11,7 +11,7 @@ export const HambugerMenu: FC = () => {
   const computedBackgroundPositionX = -220;
   const computedBackgroundPositionY = 0;
   const defaultBackgroundOverlay =
-    'linear-gradient(to bottom,rgba(0, 0, 0, 0.7), rgba(79, 79, 93, 0.20))';
+    'linear-gradient(to bottom,rgba(0, 0, 0, 0.3), rgba(79, 79, 93, 0.10))';
 
   return (
     <>
