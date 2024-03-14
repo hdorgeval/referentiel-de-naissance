@@ -32,7 +32,7 @@ export const Sophrologie: FC = () => {
         <div className="" style={{ minHeight: '5vh' }}></div>
         <div className="container-fluid d-flex flex-row justify-content-start align-items-stretch flex-wrap py-2 px-0">
           <SemiTransparentTile
-            background="linear-gradient(rgb(45, 08, 172, 0.4), rgba(79, 79, 93, 0.3))"
+            background="linear-gradient(rgb(08, 84, 172, 0.4), rgba(79, 79, 93, 0.3))"
             className="card card-lg text-start text-light fs-5 font-monserrat px-4 py-3 m-2"
           >
             <ReadMoreReadLess
@@ -68,7 +68,7 @@ export const Sophrologie: FC = () => {
             </ReadMoreReadLess>
           </SemiTransparentTile>
           <SemiTransparentTile
-            background="linear-gradient(rgb(45, 08, 172, 0.4), rgba(79, 79, 93, 0.3))"
+            background="linear-gradient(rgb(08, 84, 172, 0.4), rgba(79, 79, 93, 0.3))"
             className="card card-lg text-start text-light font-monserrat m-2"
           >
             <div className="card-header py-3">
