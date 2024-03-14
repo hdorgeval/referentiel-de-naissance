@@ -74,7 +74,7 @@ export const QuiSuisJe: FC = () => {
               <span className="text-warning fw-bolder">
                 Les Constellations Familiales et Systémiques
               </span>{' '}
-              auprès de Jean-Marc Belanger;
+              auprès de Jean-Marc Belanger et Margot Woszczalski;
             </p>
             <p>
               <span className="text-warning fw-bolder">L'harmonisation émotionnelle</span> auprès de
@@ -87,6 +87,10 @@ export const QuiSuisJe: FC = () => {
             <p>
               <span className="text-warning fw-bolder">Le Tantra</span> auprès de Tantra intégral et
               Jacques Ferber.
+            </p>
+            <p>
+              <span className="text-warning fw-bolder">Certifiée en massage tantrique</span> auprès
+              de Tantr'âme et corps - Joelle Charles.
             </p>
             <p className="mb-0 pb-0"></p>
           </SemiTransparentTile>
