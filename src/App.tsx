@@ -5,6 +5,7 @@ import { ContactFormSuccessfullySent } from './pages/ContactFormSuccessfullySent
 import { ErrorPage } from './pages/ErrorPage';
 import { LandingPage } from './pages/LandingPage';
 import { LaTrame } from './pages/LaTrame';
+import { MassageTantriqueTao } from './pages/MassageTantriqueTao';
 import { MentionsLegales } from './pages/MentionsLegales';
 import { QuiSuisJe } from './pages/QuiSuisJe';
 import { Sophrologie } from './pages/Sophrologie';
@@ -52,6 +53,10 @@ const router = createBrowserRouter([
   {
     path: '/sophrologie',
     element: <Sophrologie />,
+  },
+  {
+    path: '/massage-tantrique-tao',
+    element: <MassageTantriqueTao />,
   },
 ]);
 
