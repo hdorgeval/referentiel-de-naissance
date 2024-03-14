@@ -148,7 +148,7 @@ export const ThemeDeNaissanceParLeTarotDeMarseille: FC = () => {
                       className="btn btn-outline-light fw-bolder w-100 mt-1"
                       phoneNumber={websiteConfig.links.phone.url}
                       title="Appeler pour prendre rendez-vous"
-                      analyticsEvent="tel-tarot"
+                      analyticsEvent="tel-rdn"
                     >
                       <div className="d-flex flex-column align-items-center">
                         <span className="">

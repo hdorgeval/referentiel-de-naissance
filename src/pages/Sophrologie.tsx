@@ -123,7 +123,7 @@ export const Sophrologie: FC = () => {
                       className="btn btn-outline-light fw-bolder w-100 mt-1"
                       phoneNumber={websiteConfig.links.phone.url}
                       title="Appeler pour prendre un rdv, ou poser vos questions"
-                      analyticsEvent="tel-trame"
+                      analyticsEvent="tel-sophrologie"
                     >
                       <div className="d-flex flex-column align-items-center">
                         <span className="">
