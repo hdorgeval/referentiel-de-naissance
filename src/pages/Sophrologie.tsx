@@ -135,34 +135,6 @@ export const Sophrologie: FC = () => {
                   </div>
                 </div>
               </TransparentListGroupItem>
-              <TransparentListGroupItem className="py-3 text-light fw-bolder">
-                <div className="d-flex flex-row card-subtitle align-items-center">
-                  <i className="bi bi-info-circle fs-1 me-4"></i>
-                  <div className="d-flex flex-column justify-content-between">
-                    <Description>
-                      Une séance dure environ une heure. Durant la séance, la personne est habillée,
-                      allongée sur le dos. Le praticien pose les mains sur la personne et réalise
-                      une séquence de 16 gestes codifiés, de 40mn environ, par un toucher subtil sur
-                      le tronc, les pieds et la tête. Cette séquence ne s'apparente pas à un
-                      massage.La séance débute et se termine par un temps d'échange avec la personne
-                    </Description>
-                    <Description>
-                      Il s'ensuit un état d'apaisement, de profonde détente. Les séances sont
-                      espacées de 3 à 4 semaines car la Trame continue d'agir et à rééquilibrer
-                      après une séance. Ce temps permet au corps de s'auto-réguler.
-                    </Description>
-
-                    <p>
-                      <OpenModalButton
-                        className="btn btn-outline-light fw-bolder w-100 mt-1"
-                        modalId="prendre-rendez-vous"
-                      >
-                        Prendre rendez-vous
-                      </OpenModalButton>
-                    </p>
-                  </div>
-                </div>
-              </TransparentListGroupItem>
             </ul>
           </SemiTransparentTile>
         </div>
