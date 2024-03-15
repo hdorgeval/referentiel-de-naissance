@@ -13,6 +13,7 @@ export type MyAnalyticsEvent =
   | 'open-my-whatsapp'
   | 'open-my-youtube'
   | 'open-waze'
+  | 'contact-form'
   | 'rdv-constellation'
   | 'rdv-entretien-prealable'
   | 'rdv-ou-contact'

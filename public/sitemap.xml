@@ -11,9 +11,13 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
-  
   <url>
     <loc>https://spirale-interieure.com/qui-suis-je</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+    <url>
+    <loc>https://spirale-interieure.com/contact</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -42,5 +46,4 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
-
 </urlset>

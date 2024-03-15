@@ -46,6 +46,7 @@ export interface Links {
   phone: Link;
   linkedin: Link;
   rdv: Link;
+  contactForm: Link;
   googleMaps: Link;
   waze: Link;
 }
@@ -112,6 +113,12 @@ export const websiteConfig: WebSiteConfig = {
       url: 'https://calendly.com/fr',
       title: 'Me contacter ou prendre un rendez-vous',
       label: 'Prendre un rendez-vous',
+      show: false,
+    },
+    contactForm: {
+      url: '/contact',
+      title: 'Me contacter',
+      label: 'Me contacter',
       show: true,
     },
     googleMaps: {
@@ -134,7 +141,10 @@ export const websiteConfig: WebSiteConfig = {
   },
   selectOptions: {
     'contact-form-subjects': [
-      { label: 'Trame' },
+      { label: 'Constellations familiales et systémiques' },
+      { label: 'La Trame' },
+      { label: 'Massage Tantrique - Tao' },
+      { label: 'Sophrologie' },
       { label: 'Thème de naissance par le tarot de Marseille' },
       { label: 'Autre' },
     ],

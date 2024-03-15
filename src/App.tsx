@@ -3,6 +3,7 @@ import { UserContext, useUserContextInfo } from './contexts/userContext';
 import { ConstellationsFamilialesEtSystemiques } from './pages/ConstellationsFamilialesEtSystemiques';
 import { ContactFormError } from './pages/ContactFormError';
 import { ContactFormSuccessfullySent } from './pages/ContactFormSuccessfullySent';
+import { ContactMe } from './pages/ContactMe';
 import { ErrorPage } from './pages/ErrorPage';
 import { LandingPage } from './pages/LandingPage';
 import { LaTrame } from './pages/LaTrame';
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
   {
     path: '/qui-suis-je',
     element: <QuiSuisJe />,
+  },
+  {
+    path: '/contact',
+    element: <ContactMe />,
   },
   {
     path: '/temoignages',

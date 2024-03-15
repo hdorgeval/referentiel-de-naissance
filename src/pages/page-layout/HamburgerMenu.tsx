@@ -107,6 +107,16 @@ export const HambugerMenu: FC = () => {
                         Qui suis-je ?
                       </span>
                     </Link>
+                    <Link
+                      to="/contact"
+                      className="text-decoration-none text-light"
+                      title="Contact"
+                      aria-label="Contact"
+                    >
+                      <span className="badge rounded-pill text-bg-badge-burger-menu fs-7 border border-secondary m-1">
+                        Contact
+                      </span>
+                    </Link>
                     {/* <Link to="/temoignages" className="text-decoration-none text-light">
                     <span className="badge rounded-pill text-bg-badge-burger-menu fs-7 border border-secondary m-1">
                       Témoignages

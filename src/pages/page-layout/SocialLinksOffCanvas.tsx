@@ -1,4 +1,5 @@
 import { FC } from 'react';
+import { Link } from 'react-router-dom';
 import { OpenExternalLinkButton } from '../../components/OpenExternalLinkButton';
 import { websiteConfig } from '../../website.config';
 import { SocialLinksHorizontalBar } from './SocialLinksHorizontalBar';
@@ -49,6 +50,17 @@ export const SocialLinksOffCanvas: FC = () => {
                 <span className="">{websiteConfig.links.rdv.label}</span>
               </div>
             </OpenExternalLinkButton>
+          )}
+          {websiteConfig.links.contactForm.show && (
+            <Link
+              className="btn btn-outline-light fw-bolder w-75 mt-4 text-nowrap"
+              to={websiteConfig.links.contactForm.url}
+              title={websiteConfig.links.contactForm.title}
+            >
+              <div className="d-flex flex-column align-items-center">
+                <span className="">{websiteConfig.links.contactForm.label}</span>
+              </div>
+            </Link>
           )}
         </div>
       </div>
