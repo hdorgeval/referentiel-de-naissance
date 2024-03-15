@@ -32,7 +32,7 @@ export const ThemeDeNaissanceParLeTarotDeMarseille: FC = () => {
         <div className="container-fluid d-flex flex-row justify-content-start align-items-stretch flex-wrap py-2 px-0">
           <SemiTransparentTile
             background="linear-gradient(rgb(14, 62, 106,0.4), rgba(14, 62, 106,0.3))"
-            className="card card-lg text-start text-light fs-5 font-monserrat px-4 py-3 m-2"
+            className="card card-lg text-start text-light fs-5 font-monserrat px-4 py-3 m-2 fw-medium"
           >
             <ReadMoreReadLess
               height={'21vh'}
