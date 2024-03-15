@@ -14,7 +14,7 @@ export const ConstellationsFamilialesEtSystemiques: FC = () => {
   return (
     <PublicPageLayoutWithFixedBackgroundImage
       backgroundImageUrl="/images/backgrounds/constellations.jpg"
-      backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.5), rgba(79, 79, 93, 0.1))"
+      backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.9), rgba(79, 79, 93, 0.1))"
       backgroundPositionX="53%"
       backgroundPositionY="0%"
       htmlTitle={`Constellations familiales et systémiques | ${websiteConfig.websiteTitle}`}
@@ -32,7 +32,7 @@ export const ConstellationsFamilialesEtSystemiques: FC = () => {
         <div className="" style={{ minHeight: '7vh' }}></div>
         <div className="container-fluid d-flex flex-row justify-content-start align-items-stretch flex-wrap py-2 px-0">
           <SemiTransparentTile
-            background="linear-gradient(rgb(37, 54, 35, 0.35), rgba(14, 62, 106, 0.2))"
+            background="linear-gradient(rgb(37, 54, 35, 0.7), rgba(14, 62, 106, 0.2))"
             className="card card-lg text-start text-light fs-5 font-monserrat px-4 py-3 m-2"
           >
             <ReadMoreReadLess
@@ -65,7 +65,7 @@ export const ConstellationsFamilialesEtSystemiques: FC = () => {
             </ReadMoreReadLess>
           </SemiTransparentTile>
           <SemiTransparentTile
-            background="linear-gradient(rgb(37, 54, 35, 0.35), rgba(14, 62, 106, 0.2))"
+            background="linear-gradient(rgb(37, 54, 35, 0.7), rgba(14, 62, 106, 0.2))"
             className="card card-lg text-start text-light font-monserrat m-2"
           >
             <div className="card-header py-3">
