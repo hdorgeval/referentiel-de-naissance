@@ -6,6 +6,19 @@
   background-position: 29%;
 }
 
+.fw-medium {
+  font-weight: 500 !important;
+}
+.fw-semi-bold {
+  font-weight: 600 !important;
+}
+.fw-extra-bold {
+  font-weight: 800 !important;
+}
+.fw-black {
+  font-weight: 900 !important;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
