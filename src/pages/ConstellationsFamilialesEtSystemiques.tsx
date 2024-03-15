@@ -33,7 +33,7 @@ export const ConstellationsFamilialesEtSystemiques: FC = () => {
         <div className="container-fluid d-flex flex-row justify-content-start align-items-stretch flex-wrap py-2 px-0">
           <SemiTransparentTile
             background="linear-gradient(rgb(37, 54, 35, 0.7), rgba(14, 62, 106, 0.2))"
-            className="card card-lg text-start text-light fs-5 font-monserrat px-4 py-3 m-2"
+            className="card card-lg text-start text-light fs-4 font-monserrat px-4 py-3 m-2"
           >
             <ReadMoreReadLess
               height={'21vh'}
