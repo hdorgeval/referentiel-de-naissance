@@ -144,6 +144,11 @@ export const Sophrologie: FC = () => {
           analyticsEvent="rdv-form-sophrologie"
           subjectOptions={[{ label: 'Prendre un rendez-vous Sophrologie' }, { label: 'Autre' }]}
           backgroundColor="#2f1e31"
+          backgroundImageUrl="/images/backgrounds/sophrologie.webp"
+          backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.2), rgba(79, 79, 93, 0.2))"
+          backgroundPositionX="64%"
+          backgroundPositionY="84%"
+          formBackgroundClassName="form-contact fw-medium text-light placeholder-text-light"
         ></RendezVousModal>
       </div>
     </PublicPageLayoutWithFixedBackgroundImage>
