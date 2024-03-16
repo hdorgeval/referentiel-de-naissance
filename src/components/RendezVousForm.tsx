@@ -8,13 +8,17 @@ export interface RendezVousFormOwnProps {
   analyticsEvent?: MyAnalyticsEvent;
   className?: string;
   subjectOptions?: SelectOptions[];
-  displayHeader?: boolean;
+  displayFormLabel?: boolean;
+  invalidFeedbackClassName?: string;
+  formBackgroundClassName?: string;
 }
 
 export const RendezVousForm: FC<RendezVousFormOwnProps> = ({
   analyticsEvent,
   subjectOptions,
-  displayHeader,
+  displayFormLabel,
+  invalidFeedbackClassName,
+  formBackgroundClassName,
 }) => {
   const formName = 'Prendre rendez vous';
   const notificationEmailSubject = 'Prendre rendez-vous';
@@ -59,6 +63,7 @@ export const RendezVousForm: FC<RendezVousFormOwnProps> = ({
     return Array.isArray(subjectOptions) && subjectOptions.length > 0;
   }, [subjectOptions]);
 
+  const invalidFeedbackClassNames = `invalid-feedback ${invalidFeedbackClassName}`;
   return (
     <form
       className="row g-3 align-items-center needs-validation"
@@ -70,7 +75,7 @@ export const RendezVousForm: FC<RendezVousFormOwnProps> = ({
       noValidate
       onSubmit={handleSubmit}
     >
-      {displayHeader && (
+      {displayFormLabel && (
         <div className="col-12">
           <span className="fs-3 fw-bolder">Prendre rendez-vous</span>
         </div>
@@ -84,31 +89,31 @@ export const RendezVousForm: FC<RendezVousFormOwnProps> = ({
           type="text"
           name="Nom"
           id="contact-field-name"
-          className="form-control bg-form-field"
+          className={`form-control ${formBackgroundClassName}`}
           placeholder="Votre nom"
           autoComplete="name"
           maxLength={80}
           required
         />
-        <div className="invalid-feedback fw-bolder">Vous devez saisir votre nom.</div>
+        <div className={invalidFeedbackClassNames}>Vous devez saisir votre nom.</div>
       </div>
       <div className="col-12">
         <label className="visually-hidden" htmlFor="contact-field-email">
           E-mail
         </label>
         <div className="input-group">
-          <div className="input-group-text bg-form-field">@</div>
+          <div className={`input-group-text ${formBackgroundClassName}`}>@</div>
           <input
             type="email"
             name="Email"
-            className="form-control bg-form-field"
+            className={`form-control ${formBackgroundClassName}`}
             id="contact-field-email"
             placeholder="E-mail"
             autoComplete="email"
             maxLength={30}
             required
           />
-          <div className="invalid-feedback fw-bolder">Vous devez saisir votre email.</div>
+          <div className={invalidFeedbackClassNames}>Vous devez saisir votre email.</div>
         </div>
       </div>
 
@@ -117,22 +122,20 @@ export const RendezVousForm: FC<RendezVousFormOwnProps> = ({
           Portable
         </label>
         <div className="input-group">
-          <div className="input-group-text bg-form-field">
+          <div className={`input-group-text ${formBackgroundClassName}`}>
             <i className="bi bi-telephone-inbound"></i>
           </div>
           <input
             type="tel"
             name="Portable"
-            className="form-control bg-form-field"
+            className={`form-control ${formBackgroundClassName}`}
             id="contact-field-phone"
             placeholder="Numéro de portable"
             autoComplete="tel-national"
             maxLength={15}
             required
           />
-          <div className="invalid-feedback fw-bolder">
-            Vous devez saisir un numéro de téléphone.
-          </div>
+          <div className={invalidFeedbackClassNames}>Vous devez saisir un numéro de téléphone.</div>
         </div>
       </div>
 
@@ -143,7 +146,7 @@ export const RendezVousForm: FC<RendezVousFormOwnProps> = ({
           </label>
           <select
             name="Sujet"
-            className="form-select bg-form-field"
+            className={`form-select ${formBackgroundClassName}`}
             id="contact-field-subject"
             defaultValue=""
             required
@@ -160,7 +163,7 @@ export const RendezVousForm: FC<RendezVousFormOwnProps> = ({
               </option>
             ))}
           </select>
-          <div className="invalid-feedback fw-bolder">Vous devez sélectionner un sujet.</div>
+          <div className={invalidFeedbackClassNames}>Vous devez sélectionner un sujet.</div>
         </div>
       )}
 
@@ -169,14 +172,14 @@ export const RendezVousForm: FC<RendezVousFormOwnProps> = ({
           Votre message
         </label>
         <textarea
-          className="form-control bg-form-field"
+          className={`form-control ${formBackgroundClassName}`}
           name="Message"
           id="contact-field-message"
           rows={4}
           placeholder="Votre message"
           required
         ></textarea>
-        <div className="invalid-feedback fw-bolder">Vous devez saisir un message.</div>
+        <div className={invalidFeedbackClassNames}>Vous devez saisir un message.</div>
       </div>
 
       <div className="col-12">
@@ -184,22 +187,22 @@ export const RendezVousForm: FC<RendezVousFormOwnProps> = ({
           Vos disponibilités
         </label>
         <textarea
-          className="form-control bg-form-field"
+          className={`form-control ${formBackgroundClassName}`}
           name="Disponibilités"
           id="contact-field-when-i-am-available"
           rows={2}
           placeholder="Vos disponibilités (jours / horaires)"
           required
         ></textarea>
-        <div className="invalid-feedback fw-bolder">Vous devez saisir vos disponibilités.</div>
+        <div className={invalidFeedbackClassNames}>Vous devez saisir vos disponibilités.</div>
       </div>
 
       <div className="col-12">
-        <Recaptcha theme="light" invalidFeedbackClassName="fw-bolder" />
+        <Recaptcha theme="dark" invalidFeedbackClassName={invalidFeedbackClassName} />
       </div>
 
       <div className="col-12">
-        <button type="submit" className="btn btn-primary w-100">
+        <button type="submit" className="btn btn-primary w-100 fw-medium">
           Envoyer
         </button>
       </div>

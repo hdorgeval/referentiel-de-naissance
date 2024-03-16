@@ -172,6 +172,10 @@ export const ThemeDeNaissanceParLeTarotDeMarseille: FC = () => {
             { label: 'Autre' },
           ]}
           backgroundColor="#0f1b25"
+          backgroundImageUrl="/images/backgrounds/theme-de-naissance.webp"
+          backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.4), rgba(79, 79, 93, 0.1))"
+          backgroundPositionX="60%"
+          backgroundPositionY="0%"
         ></RendezVousModal>
       </div>
     </PublicPageLayoutWithFixedBackgroundImage>
