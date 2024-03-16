@@ -358,3 +358,22 @@
 .btn-close-thick-3.text-white::after {
   background: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }
+
+.form-control.form-contact {
+  background-color: rgb(4 47 89 / 65%) !important;
+  border-top-right-radius: var(--bs-border-radius) !important;
+  border-bottom-right-radius: var(--bs-border-radius) !important;
+}
+.form-select.form-contact {
+  background-color: rgb(4 47 89 / 65%) !important;
+}
+input.form-contact:autofill {
+  background-color: rgb(4 47 89 / 65%) !important;
+}
+input.form-contact:-webkit-autofill {
+  background-color: rgb(4 47 89 / 65%) !important;
+}
+
+.input-group-text.form-contact {
+  background-color: rgb(4 29 55 / 78%) !important;
+}

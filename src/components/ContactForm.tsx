@@ -8,6 +8,7 @@ export interface ContactFormOwnProps {
   analyticsEvent?: MyAnalyticsEvent;
   className?: string;
   invalidFeedbackClassName?: string;
+  formBackgroundClassName?: string;
 
   displayFormLabel?: boolean;
 }
@@ -16,6 +17,7 @@ export const ContactForm: FC<ContactFormOwnProps> = ({
   analyticsEvent,
   displayFormLabel,
   invalidFeedbackClassName,
+  formBackgroundClassName,
 }) => {
   const navigate = useNavigate();
   const { trackSimpleEvent } = useAnalytics();
@@ -57,6 +59,7 @@ export const ContactForm: FC<ContactFormOwnProps> = ({
     websiteConfig.selectOptions['contact-form-subjects'] ?? [];
 
   const invalidFeedbackClassNames = `invalid-feedback ${invalidFeedbackClassName}`;
+
   return (
     <form
       className="row g-3 align-items-center needs-validation"
@@ -82,7 +85,7 @@ export const ContactForm: FC<ContactFormOwnProps> = ({
           type="text"
           name="Nom"
           id="contact-field-name"
-          className="form-control"
+          className={`form-control ${formBackgroundClassName}`}
           placeholder="Votre nom"
           autoComplete="name"
           maxLength={80}
@@ -95,11 +98,11 @@ export const ContactForm: FC<ContactFormOwnProps> = ({
           E-mail
         </label>
         <div className="input-group">
-          <div className="input-group-text">@</div>
+          <div className={`input-group-text ${formBackgroundClassName}`}>@</div>
           <input
             type="email"
             name="Email"
-            className="form-control"
+            className={`form-control ${formBackgroundClassName}`}
             id="contact-field-email"
             placeholder="E-mail"
             autoComplete="email"
@@ -115,13 +118,13 @@ export const ContactForm: FC<ContactFormOwnProps> = ({
           Portable
         </label>
         <div className="input-group">
-          <div className="input-group-text">
+          <div className={`input-group-text ${formBackgroundClassName}`}>
             <i className="bi bi-telephone-inbound"></i>
           </div>
           <input
             type="tel"
             name="Portable"
-            className="form-control"
+            className={`form-control ${formBackgroundClassName}`}
             id="contact-field-phone"
             placeholder="Numéro de portable"
             autoComplete="tel-national"
@@ -138,7 +141,7 @@ export const ContactForm: FC<ContactFormOwnProps> = ({
         </label>
         <select
           name="Sujet"
-          className="form-select"
+          className={`form-select ${formBackgroundClassName}`}
           id="contact-field-subject"
           defaultValue=""
           required
@@ -163,7 +166,7 @@ export const ContactForm: FC<ContactFormOwnProps> = ({
           Votre message
         </label>
         <textarea
-          className="form-control"
+          className={`form-control ${formBackgroundClassName}`}
           name="Message"
           id="contact-field-message"
           rows={4}
@@ -178,7 +181,7 @@ export const ContactForm: FC<ContactFormOwnProps> = ({
           Vos disponibilités
         </label>
         <textarea
-          className="form-control"
+          className={`form-control ${formBackgroundClassName}`}
           name="Disponibilités"
           id="contact-field-when-i-am-available"
           rows={2}

@@ -28,6 +28,7 @@ export const ContactMe: FC = () => {
               analyticsEvent="contact-form"
               displayFormLabel={false}
               invalidFeedbackClassName="text-light"
+              formBackgroundClassName="form-contact"
             />
           </SemiTransparentTile>
         </div>
