@@ -6,7 +6,7 @@ import { PublicPageLayoutWithFixedBackgroundImage } from './page-layout/PublicPa
 export const LandingPage: FC = () => {
   return (
     <PublicPageLayoutWithFixedBackgroundImage
-      backgroundImageUrl="/images/landing-page-background.jpg"
+      backgroundImageUrl="/images/backgrounds/landing-page.webp"
       backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.1), rgba(79, 79, 93, 0.40))"
       backgroundPositionX="44%"
       backgroundPositionY="29%"

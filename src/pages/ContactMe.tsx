@@ -9,7 +9,7 @@ export const ContactMe: FC = () => {
   return (
     <>
       <PublicPageLayoutWithFixedBackgroundImage
-        backgroundImageUrl="/images/backgrounds/contact-me.jpg"
+        backgroundImageUrl="/images/backgrounds/contact-me.webp"
         backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.1), rgba(79, 79, 93, 0.40))"
         backgroundPositionX="95%"
         backgroundPositionY="35%"

@@ -7,7 +7,7 @@ export const HambugerMenu: FC = () => {
   const isOnHomePage = useMemo(() => {
     return location.pathname === '/';
   }, [location.pathname]);
-  const backgroundImageUrl = '/images/backgrounds/burger-menu-01.jpg';
+  const backgroundImageUrl = '/images/backgrounds/burger-menu-01.webp';
   const computedBackgroundPositionX = -220;
   const computedBackgroundPositionY = 0;
   const defaultBackgroundOverlay =

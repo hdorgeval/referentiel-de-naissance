@@ -14,7 +14,7 @@ import { TransparentListGroupItem } from './page-layout/TransparentListGroupItem
 export const MassageTantriqueTao: FC = () => {
   return (
     <PublicPageLayoutWithFixedBackgroundImage
-      backgroundImageUrl="/images/backgrounds/massage-tantrique-tao-01.png"
+      backgroundImageUrl="/images/backgrounds/massage-tantrique-tao-01.webp"
       backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.2), rgba(79, 79, 93, 0.2))"
       backgroundPositionX="64%"
       backgroundPositionY="84%"
