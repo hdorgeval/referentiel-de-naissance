@@ -190,6 +190,11 @@ export const LaTrame: FC = () => {
           analyticsEvent="rdv-form-trame"
           subjectOptions={[{ label: 'Prendre un rendez-vous Trame' }, { label: 'Autre' }]}
           backgroundColor="#0d1425"
+          backgroundImageUrl="/images/backgrounds/trame-page-02.webp"
+          backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.2), rgba(79, 79, 93, 0.1))"
+          backgroundPositionX="64%"
+          backgroundPositionY="84%"
+          formBackgroundClassName="form-contact fw-medium text-light placeholder-text-light"
         ></RendezVousModal>
       </div>
     </PublicPageLayoutWithFixedBackgroundImage>

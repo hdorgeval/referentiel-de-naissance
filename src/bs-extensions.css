@@ -398,3 +398,21 @@ input.form-rdv-light-green:-webkit-autofill {
 .input-group-text.form-rdv-light-green {
   background-color: rgb(24 48 22 / 84%) !important;
 }
+
+.form-control.form-rdv-light-brown {
+  background-color: rgb(89 31 04 / 65%) !important;
+  border-top-right-radius: var(--bs-border-radius) !important;
+  border-bottom-right-radius: var(--bs-border-radius) !important;
+}
+.form-select.form-rdv-light-brown {
+  background-color: rgb(89 31 04 / 65%) !important;
+}
+input.form-rdv-light-brown:autofill {
+  background-color: rgb(89 31 04 / 65%) !important;
+}
+input.form-rdv-light-brown:-webkit-autofill {
+  background-color: rgb(89 31 04 / 65%) !important;
+}
+.input-group-text.form-rdv-light-brown {
+  background-color: rgb(48 31 22 / 84%) !important;
+}

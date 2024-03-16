@@ -210,6 +210,11 @@ export const MassageTantriqueTao: FC = () => {
             { label: 'Autre' },
           ]}
           backgroundColor="#3d240d"
+          backgroundImageUrl="/images/backgrounds/massage-tantrique-tao-01.webp"
+          backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.2), rgba(79, 79, 93, 0.2))"
+          backgroundPositionX="64%"
+          backgroundPositionY="84%"
+          formBackgroundClassName="form-rdv-light-brown fw-medium text-light placeholder-text-light"
         ></RendezVousModal>
       </div>
     </PublicPageLayoutWithFixedBackgroundImage>
