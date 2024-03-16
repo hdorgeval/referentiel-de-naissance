@@ -364,6 +364,10 @@
   border-top-right-radius: var(--bs-border-radius) !important;
   border-bottom-right-radius: var(--bs-border-radius) !important;
 }
+.form-control.placeholder-text-light::placeholder {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-light-rgb), var(--bs-text-opacity)) !important;
+}
 .form-select.form-contact {
   background-color: rgb(4 47 89 / 65%) !important;
 }
@@ -373,7 +377,24 @@ input.form-contact:autofill {
 input.form-contact:-webkit-autofill {
   background-color: rgb(4 47 89 / 65%) !important;
 }
-
 .input-group-text.form-contact {
   background-color: rgb(4 29 55 / 78%) !important;
+}
+
+.form-control.form-rdv-light-green {
+  background-color: rgb(37 54 35 / 65%) !important;
+  border-top-right-radius: var(--bs-border-radius) !important;
+  border-bottom-right-radius: var(--bs-border-radius) !important;
+}
+.form-select.form-rdv-light-green {
+  background-color: rgb(37 54 35 / 65%) !important;
+}
+input.form-rdv-light-green:autofill {
+  background-color: rgb(37 54 35 / 65%) !important;
+}
+input.form-rdv-light-green:-webkit-autofill {
+  background-color: rgb(37 54 35 / 65%) !important;
+}
+.input-group-text.form-rdv-light-green {
+  background-color: rgb(24 48 22 / 84%) !important;
 }

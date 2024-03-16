@@ -16,6 +16,7 @@ export interface RendezVousModalOwnProps {
   backgroundPositionX?: string;
   backgroundPositionY?: string;
   backgroundSize?: 'inherit' | 'cover' | 'contain' | 'initial';
+  formBackgroundClassName?: string;
 }
 export const RendezVousModal: FC<RendezVousModalOwnProps> = ({
   modalId,
@@ -29,6 +30,7 @@ export const RendezVousModal: FC<RendezVousModalOwnProps> = ({
   backgroundPositionX,
   backgroundPositionY,
   backgroundSize,
+  formBackgroundClassName,
 }) => {
   const defaultBackgroundOverlay =
     'linear-gradient(to bottom,rgba(0, 0, 0, 0.1), rgba(79, 79, 93, 0.40))';
@@ -54,6 +56,10 @@ export const RendezVousModal: FC<RendezVousModalOwnProps> = ({
   const computedBackgroundSize = useMemo(() => {
     return backgroundSize ?? 'cover';
   }, [backgroundSize]);
+
+  const computedFormBackgroundClassName = useMemo(() => {
+    return formBackgroundClassName ?? 'form-contact fw-medium';
+  }, [formBackgroundClassName]);
 
   return (
     <div
@@ -105,7 +111,7 @@ export const RendezVousModal: FC<RendezVousModalOwnProps> = ({
                 analyticsEvent={analyticsEvent}
                 subjectOptions={subjectOptions}
                 invalidFeedbackClassName="text-light fw-bolder"
-                formBackgroundClassName="form-contact fw-medium"
+                formBackgroundClassName={computedFormBackgroundClassName}
               />
             </div>
           </div>

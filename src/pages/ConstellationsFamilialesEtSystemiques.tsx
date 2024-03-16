@@ -149,6 +149,11 @@ export const ConstellationsFamilialesEtSystemiques: FC = () => {
             { label: 'Autre' },
           ]}
           backgroundColor="#534119"
+          backgroundImageUrl="/images/backgrounds/constellations.webp"
+          backgroundOverlay="linear-gradient(to bottom,rgba(0, 0, 0, 0.9), rgba(79, 79, 93, 0.1))"
+          backgroundPositionX="53%"
+          backgroundPositionY="0%"
+          formBackgroundClassName="form-rdv-light-green fw-medium text-light placeholder-text-light"
         ></RendezVousModal>
       </div>
     </PublicPageLayoutWithFixedBackgroundImage>
