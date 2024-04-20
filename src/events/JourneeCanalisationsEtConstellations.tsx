@@ -222,19 +222,14 @@ export const JourneeCanalisationsEtConstellations: FC = () => {
                     paisible, plus douce se dessine et l'Amour avec Soi vibre.
                   </AnimatedBy.Description>
                 </AnimatedBy>
+                <OpenModalButton
+                  className="btn btn-outline-light fw-bolder w-100 mt-1"
+                  modalId="prendre-rendez-vous"
+                >
+                  S'inscrire
+                </OpenModalButton>
               </TransparentListGroupItem>
             </ul>
-          </SemiTransparentTile>
-          <SemiTransparentTile
-            background="linear-gradient(rgb(37, 54, 35, 0.7), rgba(14, 62, 106, 0.2))"
-            className="card card-lg text-start text-light font-monserrat m-2"
-          >
-            <OpenModalButton
-              className="btn btn-outline-light fw-bolder w-100 mt-1"
-              modalId="prendre-rendez-vous"
-            >
-              S'inscrire
-            </OpenModalButton>
           </SemiTransparentTile>
         </div>
 
