@@ -17,6 +17,7 @@ export interface RendezVousModalOwnProps {
   backgroundPositionY?: string;
   backgroundSize?: 'inherit' | 'cover' | 'contain' | 'initial';
   formBackgroundClassName?: string;
+  formTitle?: string;
 }
 export const RendezVousModal: FC<RendezVousModalOwnProps> = ({
   modalId,
@@ -31,6 +32,7 @@ export const RendezVousModal: FC<RendezVousModalOwnProps> = ({
   backgroundPositionY,
   backgroundSize,
   formBackgroundClassName,
+  formTitle,
 }) => {
   const defaultBackgroundOverlay =
     'linear-gradient(to bottom,rgba(0, 0, 0, 0.1), rgba(79, 79, 93, 0.40))';
@@ -94,7 +96,7 @@ export const RendezVousModal: FC<RendezVousModalOwnProps> = ({
                 id="prendre-rendez-vous-label"
                 className="modal-title mb-0 fw-bolder text-center w-100"
               >
-                Prendre rendez vous
+                {formTitle ? `${formTitle}` : `Prendre rendez vous`}
               </h5>
               <button
                 type="button"

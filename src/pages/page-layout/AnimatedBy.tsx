@@ -50,7 +50,7 @@ interface FigCaptionOwnProps {
   children: React.ReactNode;
 }
 const FigCaption: FC<FigCaptionOwnProps> = ({ children }) => {
-  return <p className="ps-3 mb-0">{children}</p>;
+  return <p className="ps-3 mb-0 fw-semi-bold">{children}</p>;
 };
 FigCaption.displayName = 'FigCaption';
 

@@ -1,6 +1,19 @@
 import { FC, useMemo } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { buildDateRangeLabel } from '../../hooks/useCalendar';
+import { NextToComeEvent, useMultipleEventsCalendar } from '../../hooks/useMultipleEvents';
 import { websiteConfig } from '../../website.config';
+
+export const events: NextToComeEvent[] = [
+  {
+    startDate: '2024/06/16',
+    startTime: 9,
+    endDate: '2024/06/16',
+    endTime: 18,
+    name: 'Journée canalisations et constellations systémiques intuitives',
+    url: '/events/journee-canalisations-et-constellations',
+  },
+];
 
 export const HambugerMenu: FC = () => {
   const location = useLocation();
@@ -12,6 +25,8 @@ export const HambugerMenu: FC = () => {
   const computedBackgroundPositionY = 0;
   const defaultBackgroundOverlay =
     'linear-gradient(to bottom,rgba(0, 0, 0, 0.3), rgba(79, 79, 93, 0.10))';
+
+  const { nextToComeEvents, hasNextToComeMultipleEvents } = useMultipleEventsCalendar(events);
 
   return (
     <>
@@ -155,6 +170,27 @@ export const HambugerMenu: FC = () => {
                       </span>
                     </Link>
                   </div>
+                </li>
+                <li className="nav-item w-100 text-start mt-3">
+                  <div className=" w-100 border-bottom border-secondary fs-5 text-light fw-bolder">
+                    Prochains évenements
+                  </div>
+                  {hasNextToComeMultipleEvents &&
+                    nextToComeEvents.map((event) => (
+                      <>
+                        <div
+                          key={event.name}
+                          className="w-100 border-bottom border-secondary fs-6 text-light fw-bolder ms-2 mt-2"
+                        >
+                          {buildDateRangeLabel(event.startDate, event.endDate)}
+                        </div>
+                        <Link key={event.name} to={event.url}>
+                          <div className="badge rounded-pill text-bg-badge-burger-menu fs-7 border border-secondary m-1 ms-4 ps-3 text-wrap text-start">
+                            <span className="mt-2"> {event.name}</span>
+                          </div>
+                        </Link>
+                      </>
+                    ))}
                 </li>
 
                 {/* <li className="nav-item w-100 text-start mt-3">

@@ -1,5 +1,6 @@
 import { createBrowserRouter, redirect, RouterProvider } from 'react-router-dom';
 import { UserContext, useUserContextInfo } from './contexts/userContext';
+import { JourneeCanalisationsEtConstellations } from './events/JourneeCanalisationsEtConstellations';
 import { ConstellationsFamilialesEtSystemiques } from './pages/ConstellationsFamilialesEtSystemiques';
 import { ContactFormError } from './pages/ContactFormError';
 import { ContactFormSuccessfullySent } from './pages/ContactFormSuccessfullySent';
@@ -67,6 +68,10 @@ const router = createBrowserRouter([
   {
     path: '/constellations-familiales-et-systemiques',
     element: <ConstellationsFamilialesEtSystemiques />,
+  },
+  {
+    path: '/events/journee-canalisations-et-constellations',
+    element: <JourneeCanalisationsEtConstellations />,
   },
 ]);
 
