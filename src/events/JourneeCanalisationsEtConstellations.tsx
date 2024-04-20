@@ -191,7 +191,7 @@ export const JourneeCanalisationsEtConstellations: FC = () => {
               </h5>
             </div>
             <ul className="list-group list-group-flush mt-0 pt-0">
-              <TransparentListGroupItem className="">
+              <TransparentListGroupItem className="fw-semi-bold">
                 <AnimatedBy>
                   <AnimatedBy.Img src="/images/portraits/herve-roirand.png" />
                   <AnimatedBy.FigCaption>Hervé Roirand, Médium Médiateur</AnimatedBy.FigCaption>
@@ -208,7 +208,7 @@ export const JourneeCanalisationsEtConstellations: FC = () => {
                   </AnimatedBy.Description>
                 </AnimatedBy>
               </TransparentListGroupItem>
-              <TransparentListGroupItem className="">
+              <TransparentListGroupItem className="fw-semi-bold">
                 <AnimatedBy>
                   <AnimatedBy.Img src="/images/portraits/nadia-roirand.png" className="pt-4" />
                   <AnimatedBy.FigCaption>Nadia Roirand, Coach Holistique</AnimatedBy.FigCaption>
