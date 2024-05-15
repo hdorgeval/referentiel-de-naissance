@@ -12,6 +12,7 @@
 
 ## Google Analytics
 
+[Google Tag Assistant](https://tagassistant.google.com/)
 [Google search console](https://search.google.com/search-console)
 
 [Google Analytics](https://analytics.google.com/analytics)
