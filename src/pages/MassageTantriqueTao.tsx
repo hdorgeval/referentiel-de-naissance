@@ -103,7 +103,7 @@ export const MassageTantriqueTao: FC = () => {
                 <div className="d-flex flex-row card-subtitle align-items-center">
                   <i className="bi bi-currency-euro fs-3 me-4"></i>
                   <div className="d-flex flex-column justify-content-between ">
-                    <span className="fw-bolder">160€ la séance de 2h30</span>
+                    <span className="fw-bolder">170€ la séance de 2h30</span>
                     <span className="fw-bolder">200€ la séance de 3h00</span>
                     {/* <span className="text-nowrap fs-7 fw-normal">
                       Moyens de paiement: chèque ou espèces
