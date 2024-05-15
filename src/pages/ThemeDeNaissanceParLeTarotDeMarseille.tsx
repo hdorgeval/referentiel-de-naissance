@@ -104,7 +104,7 @@ export const ThemeDeNaissanceParLeTarotDeMarseille: FC = () => {
                   <i className="bi bi-clock-history fs-3 me-4"></i>
                   <div className="d-flex flex-column card-subtitle pt-1">
                     <span className="text-wrap fs-7">
-                      Consultation de 3h, en deux séances de 1h30
+                      Consultation de 3h, pouvant se faire en deux séances de 1h30
                     </span>
                   </div>
                 </div>
@@ -114,7 +114,13 @@ export const ThemeDeNaissanceParLeTarotDeMarseille: FC = () => {
                 <div className="d-flex flex-row align-items-center card-subtitle">
                   <i className="bi bi-geo-alt fs-3 me-4"></i>
                   <div className="d-flex flex-column card-subtitle">
-                    <span className="text-nowrap fs-7">En présentiel ou en visio</span>
+                    <span className="fw-medium mt-1">
+                      Je vous reçois à la Garenne Colombes (92)
+                    </span>
+                    <span className="fw-medium mt-1">Ligne L, à 10mn de gare St Lazare</span>
+                    <span className="fw-medium mt-1 mb-2">
+                      La consultation peut aussi s'effectuer en visio
+                    </span>
                   </div>
                 </div>
               </TransparentListGroupItem>
@@ -123,9 +129,8 @@ export const ThemeDeNaissanceParLeTarotDeMarseille: FC = () => {
                   <i className="bi bi-currency-euro fs-3 me-4"></i>
                   <div className="d-flex flex-column justify-content-between ">
                     <span className="fw-bolder">150€</span>
-                    <span className="">
-                      Ce tarif comprend le calcul, l'étude, la consulation de 3h et la synthèse
-                      écrite de votre référentiel de naissance.
+                    <span className="fw-medium">
+                      Ce tarif comprend le calcul, l'étude et la consulation de 3h.
                     </span>
                     {/* <span className="fs-7 fw-normal">Moyens de paiement: virement ou espèces</span> */}
                   </div>
