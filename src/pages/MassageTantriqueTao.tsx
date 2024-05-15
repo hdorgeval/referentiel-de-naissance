@@ -83,8 +83,8 @@ export const MassageTantriqueTao: FC = () => {
                 <div className="d-flex flex-row align-items-center card-subtitle">
                   <i className="bi bi-clock-history fs-3 me-4"></i>
                   <div className="d-flex flex-column card-subtitle pt-1">
-                    <span className="text-nowrap fs-6">2h30 (durée du massage 1h30)</span>
-                    <span className="text-nowrap fs-6">3h00 (durée du massage 2h)</span>
+                    <span className="text-nowrap fs-6">2h15 (durée du massage 1h30)</span>
+                    <span className="text-nowrap fs-6">2h45 (durée du massage 2h)</span>
                   </div>
                 </div>
               </TransparentListGroupItem>
@@ -103,8 +103,24 @@ export const MassageTantriqueTao: FC = () => {
                 <div className="d-flex flex-row card-subtitle align-items-center">
                   <i className="bi bi-currency-euro fs-3 me-4"></i>
                   <div className="d-flex flex-column justify-content-between ">
-                    <span className="fw-bolder">170€ la séance de 2h30</span>
-                    <span className="fw-bolder">200€ la séance de 3h00</span>
+                    <span className="fw-bolder mb-1">Massage sur table :</span>
+                    <span className="fw-medium">
+                      <i className="bi bi-dot fw-bolder ms-2"></i>170€ la séance de 2h15 (durée du
+                      massage 1h30)
+                    </span>
+                    <span className="fw-medium">
+                      <i className="bi bi-dot fw-bolder ms-2"></i>200€ la séance de 2h45 (durée du
+                      massage 2h)
+                    </span>
+                    <span className="fw-bolder mt-4 mb-1">Massage Cachemirien :</span>
+                    <span className="fw-medium">
+                      <i className="bi bi-dot fw-bolder ms-2"></i>
+                      200€ la séance de 2h15 (durée du massage 1h30)
+                    </span>
+                    <span className="fw-medium">
+                      <i className="bi bi-dot fw-bolder ms-2"></i>240€ la séance de 2h45 (durée du
+                      massage 2h)
+                    </span>
                     {/* <span className="text-nowrap fs-7 fw-normal">
                       Moyens de paiement: chèque ou espèces
                     </span> */}
