@@ -93,9 +93,8 @@ export const MassageTantriqueTao: FC = () => {
                 <div className="d-flex flex-row align-items-center card-subtitle">
                   <i className="bi bi-geo-alt fs-3 me-4"></i>
                   <div className="d-flex flex-column card-subtitle">
-                    <span className="text-nowrap fs-7">Je vous reçois au :</span>
-                    <span className="text-nowrap fs-7 mt-2">32 rue Médéric</span>
-                    <span className="text-nowrap fs-7">92250 La Garenne Colombes</span>
+                    <span className="fw-medium">Je vous reçois à la Garenne Colombes (92) </span>
+                    <span className="fw-medium mt-1">Ligne L, à 10mn de gare St Lazare</span>
                   </div>
                 </div>
               </TransparentListGroupItem>
