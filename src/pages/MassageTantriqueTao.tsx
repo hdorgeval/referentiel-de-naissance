@@ -83,8 +83,8 @@ export const MassageTantriqueTao: FC = () => {
                 <div className="d-flex flex-row align-items-center card-subtitle">
                   <i className="bi bi-clock-history fs-3 me-4"></i>
                   <div className="d-flex flex-column card-subtitle pt-1">
-                    <span className="text-nowrap fs-6">2h15 (durée du massage 1h30)</span>
-                    <span className="text-nowrap fs-6">2h45 (durée du massage 2h)</span>
+                    <span className="text-nowrap fs-6">2h (durée du massage 1h30)</span>
+                    <span className="text-nowrap fs-6">2h30 (durée du massage 2h)</span>
                   </div>
                 </div>
               </TransparentListGroupItem>
