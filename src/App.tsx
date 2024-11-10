@@ -2,6 +2,7 @@ import { createBrowserRouter, redirect, RouterProvider } from 'react-router-dom'
 import { UserContext, useUserContextInfo } from './contexts/userContext';
 import { JourneeCanalisationsEtConstellations } from './events/JourneeCanalisationsEtConstellations';
 import { ConstellationsFamilialesEtSystemiques } from './pages/ConstellationsFamilialesEtSystemiques';
+import { ConsultationTarotDeMarseille } from './pages/ConsultationTarotDeMarseille';
 import { ContactFormError } from './pages/ContactFormError';
 import { ContactFormSuccessfullySent } from './pages/ContactFormSuccessfullySent';
 import { ContactMe } from './pages/ContactMe';
@@ -52,6 +53,10 @@ const router = createBrowserRouter([
   {
     path: '/theme-de-naissance-par-le-tarot-de-marseille',
     element: <ThemeDeNaissanceParLeTarotDeMarseille />,
+  },
+  {
+    path: '/consultation-tarot-de-marseille',
+    element: <ConsultationTarotDeMarseille />,
   },
   {
     path: '/la-trame',

@@ -149,6 +149,11 @@ export const HambugerMenu: FC = () => {
                         Thème de naissance par le tarot de Marseille
                       </span>
                     </Link>
+                    <Link to="/consultation-tarot-de-marseille">
+                      <span className="badge rounded-pill text-bg-badge-burger-menu fs-7 border border-secondary m-1">
+                        Consultation Tarot de Marseille
+                      </span>
+                    </Link>
                     <Link to="/la-trame">
                       <span className="badge rounded-pill text-bg-badge-burger-menu fs-7 border border-secondary m-1">
                         La Trame

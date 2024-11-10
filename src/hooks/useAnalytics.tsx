@@ -23,6 +23,7 @@ export type MyAnalyticsEvent =
   | 'tel-trame'
   | 'tel-sophrologie'
   | 'rdv-form-constellation'
+  | 'rdv-form-consultation-tarot'
   | 'rdv-form-massage'
   | 'rdv-form-sophrologie'
   | 'rdv-form-trame'
