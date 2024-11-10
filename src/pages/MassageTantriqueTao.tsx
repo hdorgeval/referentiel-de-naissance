@@ -104,20 +104,20 @@ export const MassageTantriqueTao: FC = () => {
                   <div className="d-flex flex-column justify-content-between ">
                     <span className="fw-bolder mb-1">Massage sur table :</span>
                     <span className="fw-medium">
-                      <i className="bi bi-dot fw-bolder ms-2"></i>170€ la séance de 2h15 (durée du
+                      <i className="bi bi-dot fw-bolder ms-2"></i>160€ la séance de 2h (durée du
                       massage 1h30)
                     </span>
                     <span className="fw-medium">
-                      <i className="bi bi-dot fw-bolder ms-2"></i>200€ la séance de 2h45 (durée du
+                      <i className="bi bi-dot fw-bolder ms-2"></i>200€ la séance de 2h30 (durée du
                       massage 2h)
                     </span>
                     <span className="fw-bolder mt-4 mb-1">Massage Cachemirien :</span>
                     <span className="fw-medium">
-                      <i className="bi bi-dot fw-bolder ms-2"></i>
-                      200€ la séance de 2h15 (durée du massage 1h30)
+                      <i className="bi bi-dot fw-bolder ms-2"></i>200€ la séance de 2h (durée du
+                      massage 1h30)
                     </span>
                     <span className="fw-medium">
-                      <i className="bi bi-dot fw-bolder ms-2"></i>240€ la séance de 2h45 (durée du
+                      <i className="bi bi-dot fw-bolder ms-2"></i>240€ la séance de 2h30 (durée du
                       massage 2h)
                     </span>
                     {/* <span className="text-nowrap fs-7 fw-normal">
