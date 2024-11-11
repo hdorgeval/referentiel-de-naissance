@@ -51,7 +51,7 @@ export const ConsultationTarotDeMarseille: FC = () => {
                 Les tarots comme outil symbolique, vont vous permettre de faire le pont, la jonction
                 entre votre part consciente et les divers aspects de votre part inconsciente afin de
                 pouvoir changer vos schémas de fonctionnement et d'obtenir des éclairages puissants
-                pour votre pour votre cheminement personnel.
+                pour votre cheminement personnel.
               </p>
               <p className="mb-0">
                 Consultation <span className="fw-bolder">Tarot et alchimie</span>
@@ -65,8 +65,15 @@ export const ConsultationTarotDeMarseille: FC = () => {
                 Consultation <span className="fw-bolder">Tarot et généalogie</span>
               </p>
               <p className="ms-4 mt-0 pt-0">
-                - Aller visiter les transmissions familiales, les relations masculins-féminins,
+                - Aller visiter les transmissions familiales, les relations masculins-féminin,
                 l'apport familial positif de votre arbre.
+              </p>
+
+              <p className="mb-0">
+                Consultation <span className="fw-bolder">Tarot et questions personnelles</span>
+              </p>
+              <p className="ms-4 mt-0 pt-0">
+                - Obtenir une réponse, un conseil sur un sujet au choix vous concernant.
               </p>
               <p>
                 <OpenModalButton

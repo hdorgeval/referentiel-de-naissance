@@ -16,6 +16,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://spirale-interieure.com/temoignages</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
     <url>
     <loc>https://spirale-interieure.com/contact</loc>
     <changefreq>weekly</changefreq>
